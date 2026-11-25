@@ -1,0 +1,2074 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D837CC41D1643F89DE6CC01 /* TripEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A14DB6A9B7B40B3AF7EC487 /* TripEditViewModel.swift */; };
+		0D8C75B1-22CC-4737-8157-A865300D50D7 /* TripHeroModeToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C885A5DE-A95D-42D3-B3AD-5E4F48B14635 /* TripHeroModeToggle.swift */; };
+		0F2C0086F6675F9F3CE59F9D /* TripEditPolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14B86A35DCEBCBAD27416B /* TripEditPolicyTests.swift */; };
+		0F2C0086F6675F9F3CE59F9E /* TripEditViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14B86A35DCEBCBAD27416C /* TripEditViewModelTests.swift */; };
+		108ACAC5D7D741BA88EC2FCA /* SettlementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD36F543E0384349BC875A16 /* SettlementView.swift */; settings = {COMPILER_FLAGS = ""; }; };
+		10F2C0086F6675F9F3CE59F9D /* CollaborationModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD14B86A35DCEBCBAD27416B /* CollaborationModelsTests.swift */; };
+		18C831716D8345928817E2BC /* SettlementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A09958D35045CABA1C1B36 /* SettlementViewModel.swift */; settings = {COMPILER_FLAGS = ""; }; };
+		26B8ABF93035F45500A9C488 /* TracciNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = PKGPRODNETWORKING /* TracciNetworking */; };
+		26B8ABFA3035F45500A9C488 /* TracciNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = PKGPRODNETWORKING /* TracciNetworking */; };
+		26B8ABFB3035F45500A9C488 /* TracciTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = PKGPRODTESTSUPPORT /* TracciTestSupport */; };
+		35E761EAC3C0CC987E694CA3 /* TripOverviewPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222CF160C28BF27965E4EA9 /* TripOverviewPageView.swift */; };
+		3E0B464C169845F4A52CACC4 /* TripDestinationSelectionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD193A8679914728B6FF6122 /* TripDestinationSelectionSheet.swift */; };
+		44830B4D5B344FC6BFDF6F29 /* ActivityLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E60A4CCE8CA4778A471A809 /* ActivityLogViewModel.swift */; settings = {COMPILER_FLAGS = ""; }; };
+		5256D78607BC49569C5FCCAF /* TripDateEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D638CA89A84C768C379F38 /* TripDateEditorSheet.swift */; };
+		52CF16B4-C4DF-4346-8700-5DDA365DDF91 /* TripHeroNodeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78409E36-1B38-48C8-9AB2-65941615E1F6 /* TripHeroNodeCard.swift */; };
+		57DC9FD6267F7908260F5EA6 /* TripEditPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43936B83BC0655397252E1 /* TripEditPolicy.swift */; };
+		5AE10CA5243C483A94326640 /* TracciGenderPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5E6723C9E74C149F81397D /* TracciGenderPickerSheet.swift */; };
+		63C54828334DD2EABF0D6FF1 /* TripCreateViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C8961810869C28BF4DB5E /* TripCreateViewModelTests.swift */; };
+		69F55704-639C-4A12-96F8-11BA4C7B7FBA /* TripHeroMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E70142-92BE-4F43-A700-B4F4BFEE17B3 /* TripHeroMode.swift */; };
+		7B32828816D01ADBD44F1129 /* TripCreateDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071238A27B9F2BD549DB48BA /* TripCreateDestinationView.swift */; };
+		7F0E55F6-09E5-4D03-A51D-5654EAFD3FBD /* TripNodeCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7029984-7DC6-4802-800D-0E955AFE3F6D /* TripNodeCarouselView.swift */; };
+		85538052FB754CF3AB79E86B /* ActivityLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292FD2B9D9464FCBA4370629 /* ActivityLogView.swift */; settings = {COMPILER_FLAGS = ""; }; };
+		8C270F62C80F42EF97BFC5CD /* CreateInvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B66979469492382C42FDA /* CreateInvitationView.swift */; settings = {COMPILER_FLAGS = ""; }; };
+		91EEE23E2C93409B95D4674F /* StatsRhythmDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D106E883124DB6B3A33161 /* StatsRhythmDots.swift */; };
+		A00100000000000000000001 /* TracciApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000001 /* TracciApp.swift */; };
+		A00100000000000000000002 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000002 /* AppRootView.swift */; };
+		A00100000000000000000003 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000003 /* MainTabView.swift */; };
+		A0010000000000000000000A /* AuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000000A /* AuthToken.swift */; };
+		A0010000000000000000000B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000000B /* AuthService.swift */; };
+		A0010000000000000000000C /* AuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000000C /* AuthSession.swift */; };
+		A0010000000000000000000D /* TokenRefreshCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000000D /* TokenRefreshCoordinator.swift */; };
+		A0010000000000000000000E /* KeychainTokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000000E /* KeychainTokenStore.swift */; };
+		A0010000000000000000000F /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000000F /* AppColors.swift */; };
+		A00100000000000000000010 /* AppSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000010 /* AppSpacing.swift */; };
+		A00100000000000000000011 /* AppRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000011 /* AppRadius.swift */; };
+		A00100000000000000000012 /* AppTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000012 /* AppTypography.swift */; };
+		A00100000000000000000013 /* AppButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000013 /* AppButtons.swift */; };
+		A00100000000000000000014 /* AppCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000014 /* AppCards.swift */; };
+		A00100000000000000000015 /* AppStateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000015 /* AppStateViews.swift */; };
+		A00100000000000000000018 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000018 /* AuthViewModel.swift */; };
+		A00100000000000000000019 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000019 /* LoginView.swift */; };
+		A0010000000000000000001A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000001A /* RegisterView.swift */; };
+		A0010000000000000000001B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000001B /* HomeView.swift */; };
+		A0010000000000000000001C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000001C /* HomeViewModel.swift */; };
+		A0010000000000000000001D /* TripModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000001D /* TripModels.swift */; };
+		A0010000000000000000001E /* TripListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000001E /* TripListItem.swift */; };
+		A0010000000000000000001F /* TripService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000001F /* TripService.swift */; };
+		A00100000000000000000020 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000020 /* ProfileView.swift */; };
+		A00100000000000000000021 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000021 /* ProfileViewModel.swift */; };
+		A00100000000000000000022 /* TripInsightWorkspaceSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000022 /* TripInsightWorkspaceSection.swift */; };
+		A00100000000000000000023 /* MemoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000023 /* MemoryView.swift */; };
+		A00100000000000000000024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000024 /* Assets.xcassets */; };
+		A00100000000000000000025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000027 /* AppDelegate.swift */; };
+		A00100000000000000000026 /* WeChatLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000028 /* WeChatLoginManager.swift */; };
+		A00100000000000000000028 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00100000000000000000031 /* WebKit.framework */; };
+		A00100000000000000000029 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B00100000000000000000032 /* libc++.tbd */; };
+		A0010000000000000000002A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00100000000000000000033 /* Security.framework */; };
+		A0010000000000000000002B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00100000000000000000034 /* CoreGraphics.framework */; };
+		A0010000000000000000002F /* TripCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000038 /* TripCreateView.swift */; };
+		A00100000000000000000030 /* TripEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000039 /* TripEditView.swift */; };
+		A00100000000000000000031 /* TripFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000003A /* TripFormField.swift */; };
+		A00100000000000000000032 /* TripDateRangePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000003B /* TripDateRangePicker.swift */; };
+		A00100000000000000000033 /* TripCoverPickerPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000003C /* TripCoverPickerPlaceholder.swift */; };
+		A00100000000000000000034 /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000003D /* TripDetailView.swift */; };
+		A00100000000000000000035 /* TripDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000003E /* TripDetailViewModel.swift */; };
+		A00100000000000000000036 /* TripDetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000003F /* TripDetailHeader.swift */; };
+		A00100000000000000000037 /* TripDetailTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000040 /* TripDetailTabBar.swift */; };
+		A00100000000000000000038 /* ItineraryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000041 /* ItineraryModels.swift */; };
+		A00100000000000000000039 /* ItineraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000042 /* ItineraryService.swift */; };
+		A0010000000000000000003A /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000043 /* ItineraryViewModel.swift */; };
+		A0010000000000000000003B /* ItineraryTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000044 /* ItineraryTabView.swift */; };
+		A0010000000000000000003C /* ItineraryNodeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000045 /* ItineraryNodeCard.swift */; };
+		A0010000000000000000003E /* JournalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000047 /* JournalModels.swift */; };
+		A0010000000000000000003F /* JournalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000048 /* JournalService.swift */; };
+		A00100000000000000000040 /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000049 /* JournalViewModel.swift */; };
+		A00100000000000000000042 /* JournalEntryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000004B /* JournalEntryCard.swift */; };
+		A00100000000000000000043 /* JournalFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000004C /* JournalFormView.swift */; };
+		A00100000000000000000044 /* JournalImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000004D /* JournalImagePicker.swift */; };
+		A00100000000000000000045 /* ExpenseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000004E /* ExpenseModels.swift */; };
+		A00100000000000000000046 /* ExpenseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000004F /* ExpenseService.swift */; };
+		A00100000000000000000047 /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000060 /* ExpenseViewModel.swift */; };
+		A00100000000000000000049 /* ExpenseFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000052 /* ExpenseFormView.swift */; };
+		A0010000000000000000004A /* ExpenseSummaryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000053 /* ExpenseSummaryCardView.swift */; };
+		A0010000000000000000004B /* ExpenseCategoryChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000054 /* ExpenseCategoryChartView.swift */; };
+		A0010000000000000000004C /* ExpenseListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000055 /* ExpenseListItemView.swift */; };
+		A0010000000000000000004D /* ExpenseEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000056 /* ExpenseEmptyStateView.swift */; };
+		A00100000000000000000050 /* AppShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000050 /* AppShadow.swift */; };
+		A00100000000000000000051 /* TracciBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000051 /* TracciBottomSheet.swift */; };
+		A00100000000000000000062 /* TripCoverHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000062 /* TripCoverHeroView.swift */; };
+		A00100000000000000000063 /* SafeAreaMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000063 /* SafeAreaMetrics.swift */; };
+		A00100000000000000000064 /* ImagePickerProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000064 /* ImagePickerProcessing.swift */; };
+		A00100000000000000000065 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000065 /* LocationService.swift */; };
+		A00100000000000000000066 /* JournalPhotoGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000066 /* JournalPhotoGrid.swift */; };
+		A00100000000000000000067 /* POISearchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000067 /* POISearchSheet.swift */; };
+		A00100000000000000000068 /* JournalMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000068 /* JournalMood.swift */; };
+		A00100000000000000000069 /* StatsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000069 /* StatsModels.swift */; };
+		A00100000000000000000070 /* StatsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000070 /* StatsService.swift */; };
+		A00100000000000000000071 /* TripInsightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000071 /* TripInsightViewModel.swift */; };
+		A00100000000000000000079 /* ExportModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000079 /* ExportModels.swift */; };
+		A00100000000000000000080 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000080 /* ExportService.swift */; };
+		A00100000000000000000081 /* ExportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000081 /* ExportViewModel.swift */; };
+		A00100000000000000000083 /* ExportTypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000083 /* ExportTypeCard.swift */; };
+		A00100000000000000000084 /* ExportOptionsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000084 /* ExportOptionsCard.swift */; };
+		A00100000000000000000085 /* ExportStatusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000085 /* ExportStatusCard.swift */; };
+		A00100000000000000000086 /* ExportResultActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000086 /* ExportResultActionsView.swift */; };
+		A00100000000000000000087 /* ExportShareHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000087 /* ExportShareHelper.swift */; };
+		A00100000000000000000088 /* ExportFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000088 /* ExportFormatting.swift */; };
+		A00100000000000000000089 /* ExportTemplateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000089 /* ExportTemplateViews.swift */; };
+		A00100000000000000000090 /* MemoryPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000090 /* MemoryPageViewModel.swift */; };
+		A00100000000000000000091 /* ExportTripPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000091 /* ExportTripPicker.swift */; };
+		A00100000000000000000092 /* AppMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000092 /* AppMotion.swift */; };
+		A00100000000000000000093 /* MemoryPosterTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000093 /* MemoryPosterTemplate.swift */; };
+		A00100000000000000000094 /* MemoryDesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000094 /* MemoryDesignTokens.swift */; };
+		A00100000000000000000095 /* MemoryStoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000095 /* MemoryStoryViewModel.swift */; };
+		A00100000000000000000096 /* MemoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000096 /* MemoryModels.swift */; };
+		A00100000000000000000097 /* ProfileModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000097 /* ProfileModels.swift */; };
+		A00100000000000000000098 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000098 /* ProfileService.swift */; };
+		A00100000000000000000099 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000099 /* EditProfileView.swift */; };
+		A0010000000000000000009A /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000009A /* EditProfileViewModel.swift */; };
+		A0010000000000000000009B /* AccountSecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000009B /* AccountSecurityView.swift */; };
+		A0010000000000000000009C /* AccountSecurityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000009C /* AccountSecurityViewModel.swift */; };
+		A0010000000000000000009D /* HelpFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000009D /* HelpFeedbackView.swift */; };
+		A0010000000000000000009E /* HelpFeedbackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000009E /* HelpFeedbackViewModel.swift */; };
+		A0010000000000000000009F /* AboutTracciView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000009F /* AboutTracciView.swift */; };
+		A001000000000000000000A1 /* StatsOverviewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A1 /* StatsOverviewModels.swift */; };
+		A001000000000000000000A2 /* StatsSpendAnalysisModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A2 /* StatsSpendAnalysisModels.swift */; };
+		A001000000000000000000A3 /* StatsRecordsAnalysisModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A3 /* StatsRecordsAnalysisModels.swift */; };
+		A001000000000000000000A4 /* StatsFootprintAnalysisModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A4 /* StatsFootprintAnalysisModels.swift */; };
+		A001000000000000000000A8 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A8 /* ChangePasswordView.swift */; };
+		A001000000000000000000A9 /* ChangePasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A9 /* ChangePasswordViewModel.swift */; };
+		A001000000000000000000AA /* TripShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000AA /* TripShareSheet.swift */; };
+		A001000000000000000000AB /* TripItineraryExportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000AB /* TripItineraryExportSheet.swift */; };
+		A001000000000000000000B0 /* TracciDateRangePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B0 /* TracciDateRangePickerSheet.swift */; };
+		A001000000000000000000B1 /* NavigationLifecycleReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B1 /* NavigationLifecycleReporter.swift */; };
+		A001000000000000000000B2 /* TracciTabBarVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B2 /* TracciTabBarVisibility.swift */; };
+		A001000000000000000000B4 /* InAppSafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B4 /* InAppSafariView.swift */; };
+		A001000000000000000000B5 /* EmailBindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B5 /* EmailBindView.swift */; };
+		A001000000000000000000B6 /* EmailBindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B6 /* EmailBindViewModel.swift */; };
+		A001000000000000000000B7 /* MemoryDisplayCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B7 /* MemoryDisplayCopy.swift */; };
+		A001000000000000000000B8 /* MemoryStoryPagePlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B8 /* MemoryStoryPagePlanner.swift */; };
+		A001000000000000000000B9 /* MemoryPreviewFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B9 /* MemoryPreviewFixtures.swift */; };
+		A001000000000000000000BA /* PhoneBindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000BA /* PhoneBindView.swift */; };
+		A001000000000000000000BB /* PhoneBindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000BB /* PhoneBindViewModel.swift */; };
+		A001000000000000000000BC /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000BC /* PasswordResetView.swift */; };
+		A001000000000000000000BD /* PasswordResetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000BD /* PasswordResetViewModel.swift */; };
+		A001000000000000000000BE /* VerificationCodeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000BE /* VerificationCodeTimer.swift */; };
+		A001000000000000000000BF /* MemoryCompanionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000BF /* MemoryCompanionViews.swift */; };
+		A001000000000000000000D1 /* MemoryTripListViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000D1 /* MemoryTripListViews.swift */; };
+		A001000000000000000000D2 /* MemoryYearlyReportViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000D2 /* MemoryYearlyReportViews.swift */; };
+		A001000000000000000000D3 /* MemoryStartModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000D3 /* MemoryStartModal.swift */; };
+		A001000000000000000000D4 /* MemoryStoryExperienceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000D4 /* MemoryStoryExperienceViews.swift */; };
+		A001000000000000000000D5 /* AccountValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000D5 /* AccountValidation.swift */; };
+		A001000000000000000000D6 /* JournalPreviewFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000D6 /* JournalPreviewFixtures.swift */; };
+		A001000000000000000000E1 /* TripDetailLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000E1 /* TripDetailLayout.swift */; };
+		A001000000000000000000E2 /* TripDayEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000E2 /* TripDayEmptyStateView.swift */; };
+		A001000000000000000000F8 /* TracciOTPCodeField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000F8 /* TracciOTPCodeField.swift */; };
+		A001000000000000000000F9 /* AccountBindChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000F9 /* AccountBindChrome.swift */; };
+		A00100000000000000000103 /* StatsRadarDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000103 /* StatsRadarDecoration.swift */; };
+		A00100000000000000000104 /* ExpenseFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000104 /* ExpenseFormatters.swift */; };
+		A00100000000000000000110 /* MemoryStoryNarrativeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000110 /* MemoryStoryNarrativeBuilder.swift */; };
+		A00100000000000000000120 /* AppSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000120 /* AppSkeleton.swift */; };
+		A00100000000000000000130 /* AppProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000130 /* AppProgressIndicator.swift */; };
+		A001000000000000000001A0 /* HomeNavigationRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000001A0 /* HomeNavigationRoute.swift */; };
+		A001000000000000000001B3 /* TracciInteractivePopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000001B3 /* TracciInteractivePopGesture.swift */; };
+		A001000000000000000001B4 /* AppAtmosphereBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000001B4 /* AppAtmosphereBackground.swift */; };
+		A001000000000000000001B5 /* GlobalCreateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000001B5 /* GlobalCreateAction.swift */; };
+		A001000000000000000001B6 /* TripDayWorkspaceHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000001B6 /* TripDayWorkspaceHeader.swift */; };
+		A001000000000000000001B7 /* GlobalNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000001B7 /* GlobalNavigationBar.swift */; };
+		A001000000000000000001C0 /* AppNavigationMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000001C0 /* AppNavigationMetrics.swift */; };
+		A001000000000000000001E0 /* AppUpdateChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000001E0 /* AppUpdateChecker.swift */; };
+		A001000000000000000001E1 /* VersionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000001E1 /* VersionInfoView.swift */; };
+		A001000000000000000001E2 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000001E2 /* ContactUsView.swift */; };
+		A00100000000000000000210 /* TripWeatherCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000210 /* TripWeatherCard.swift */; };
+		A00100000000000000000211 /* TripDayCompactNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000211 /* TripDayCompactNavigator.swift */; };
+		A00100000000000000000212 /* TripDayRail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000212 /* TripDayRail.swift */; };
+		A00100000000000000000214 /* TripDetailFABChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000214 /* TripDetailFABChrome.swift */; };
+		A00100000000000000000215 /* ExpenseFormMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000215 /* ExpenseFormMode.swift */; };
+		A00100000000000000000216 /* TripUnifiedCreekFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000216 /* TripUnifiedCreekFeed.swift */; };
+		A00100000000000000000B3 /* AuthLandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000B3 /* AuthLandingView.swift */; };
+		A00100000000000000000C0 /* ATAuthSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00100000000000000000C0 /* ATAuthSDK.xcframework */; };
+		A00100000000000000000C1 /* YTXMonitor.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00100000000000000000C1 /* YTXMonitor.xcframework */; };
+		A00100000000000000000C2 /* YTXOperators.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00100000000000000000C2 /* YTXOperators.xcframework */; };
+		A00100000000000000000C3 /* PhoneAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000C3 /* PhoneAuthManager.swift */; };
+		A00100000000000000000C4 /* AppDestructiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000C4 /* AppDestructiveButton.swift */; };
+		A00100000000000000000C5 /* AppPageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000C5 /* AppPageHeader.swift */; };
+		A00100000000000000000C6 /* FormSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000C6 /* FormSection.swift */; };
+		A00100000000000000000C7 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000C7 /* SectionHeader.swift */; };
+		A00100000000000000000C8 /* TracciPickerSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000C8 /* TracciPickerSupport.swift */; };
+		A00100000000000000000C9 /* TracciDatePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000C9 /* TracciDatePickerSheet.swift */; };
+		A00100000000000000000CA /* TracciTimePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000CA /* TracciTimePickerSheet.swift */; };
+		A00100000000000000000CB /* TracciToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000CB /* TracciToast.swift */; };
+		A00100000000000000000CC /* TracciActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000CC /* TracciActionSheet.swift */; };
+		A00100000000000000000CD /* TracciFormControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000CD /* TracciFormControls.swift */; };
+		A00100000000000000000CE /* TracciSheetPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000CE /* TracciSheetPresentation.swift */; };
+		A00100000000000000000CF /* TracciFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000CF /* TracciFormField.swift */; };
+		A00100000000000000000D0 /* TracciPlaceSearchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000D0 /* TracciPlaceSearchSheet.swift */; };
+		A00100000000000000000D1 /* TracciFormChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000D1 /* TracciFormChrome.swift */; };
+		A00100000000000000000D7 /* TripCoverImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000D7 /* TripCoverImageLoader.swift */; };
+		A00100000000000000000E2 /* TracciSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000E2 /* TracciSwipeActions.swift */; };
+		A0010000000000000000BR01 /* BrandTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000BR01 /* BrandTokens.swift */; };
+		A0010000000000000000BR02 /* BrandLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000BR02 /* BrandLogoView.swift */; };
+		A0010000000000000000BR03 /* BrandWordmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000BR03 /* BrandWordmarkView.swift */; };
+		A0010000000000000000BR04 /* BrandSloganView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000BR04 /* BrandSloganView.swift */; };
+		A0010000000000000000BR05 /* BrandWatermarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000BR05 /* BrandWatermarkView.swift */; };
+		A0010000000000000000BR06 /* BrandAmbientGlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000BR06 /* BrandAmbientGlow.swift */; };
+		A0010000000000000000BR07 /* BrandUIKitHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000BR07 /* BrandUIKitHost.swift */; };
+		A0010000000000000000BR08 /* BrandRenderChecks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000BR08 /* BrandRenderChecks.swift */; };
+		A0010000000000000000BR09 /* BrandLockupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000BR09 /* BrandLockupView.swift */; };
+		A0010000000000000000BR10 /* BrandPreviewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000BR10 /* BrandPreviewSupport.swift */; };
+		A0010000000000000000E413A849 /* PlaceCategoryGlyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0010000000000000000E413A849 /* PlaceCategoryGlyph.swift */; };
+		A001SAVED00000000000001 /* SavedPlaceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001SAVED00000000000001 /* SavedPlaceModels.swift */; };
+		A001SAVED00000000000002 /* SavedPlaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001SAVED00000000000002 /* SavedPlaceService.swift */; };
+		A001SAVED00000000000003 /* SavedPlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001SAVED00000000000003 /* SavedPlacesView.swift */; };
+		A001SAVED00000000000004 /* SavedPlaceModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001SAVED00000000000004 /* SavedPlaceModelsTests.swift */; };
+		A001SAVED00000000000011 /* SavedPlaceEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001SAVED00000000000011 /* SavedPlaceEditorView.swift */; };
+		A001SAVED00000000000012 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001SAVED00000000000012 /* PlaceDetailView.swift */; };
+		A001SAVED00000000000013 /* SavedPlacePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001SAVED00000000000013 /* SavedPlacePickerView.swift */; };
+		A001SAVED00000000000014 /* SavedPlacesPreviewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001SAVED00000000000014 /* SavedPlacesPreviewSupport.swift */; };
+		A001SAVED00000000000015 /* SavedPlaceTripCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001SAVED00000000000015 /* SavedPlaceTripCapability.swift */; };
+		A001SAVED00000000000016 /* SavedPlaceAddToTripSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001SAVED00000000000016 /* SavedPlaceAddToTripSheet.swift */; };
+		A001SAVED00000000000017 /* SavedPlacesEntryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001SAVED00000000000017 /* SavedPlacesEntryCard.swift */; };
+		A0F1EXPL000000000000S001 /* ExploreRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000S001 /* ExploreRootView.swift */; };
+		A0F1EXPL000000000000S002 /* ExploreHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000S002 /* ExploreHomeViewModel.swift */; };
+		A0F1EXPL000000000000S003 /* ExploreCityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000S003 /* ExploreCityCard.swift */; };
+		A0F1EXPL000000000000S004 /* ExploreHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000S004 /* ExploreHomeView.swift */; };
+		A0F1EXPL000000000000S005 /* ExploreCityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000S005 /* ExploreCityViewModel.swift */; };
+		A0F1EXPL000000000000S006 /* ExploreCityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000S006 /* ExploreCityView.swift */; };
+		A0F1EXPL000000000000S007 /* ExplorePlaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000S007 /* ExplorePlaceRow.swift */; };
+		A0F1EXPL000000000000S008 /* ExplorePlaceEditorialContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000S008 /* ExplorePlaceEditorialContent.swift */; };
+		A0F1EXPL000000000000S009 /* ExplorePlaceSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000S009 /* ExplorePlaceSheetViewModel.swift */; };
+		A0F1EXPL000000000000S010 /* ExplorePlaceSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000S010 /* ExplorePlaceSheetView.swift */; };
+		A001TST000000000000000005 /* TripRequestEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST000000000000000005 /* TripRequestEncodingTests.swift */; };
+		A001TST000000000000000006 /* ItineraryMutationRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST000000000000000006 /* ItineraryMutationRequestTests.swift */; };
+		A001TST000000000000000007 /* ItineraryFormStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST000000000000000007 /* ItineraryFormStateTests.swift */; };
+		A001TST000000000000000008 /* CategoryMappingCharacterizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST000000000000000008 /* CategoryMappingCharacterizationTests.swift */; };
+		A001TST000000000000000009 /* ItineraryServiceHTTPStubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST000000000000000009 /* ItineraryServiceHTTPStubTests.swift */; };
+		A001TST000000000000000010 /* HTTPStubSmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST000000000000000010 /* HTTPStubSmokeTests.swift */; };
+		A001TST000000000000000011 /* CapabilityStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST000000000000000011 /* CapabilityStubs.swift */; };
+		A001TST000000000000000012 /* ItineraryFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST000000000000000012 /* ItineraryFixtures.swift */; };
+		A001TST000000000000000014 /* ItineraryViewModelMutationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST000000000000000014 /* ItineraryViewModelMutationTests.swift */; };
+		A001TST0000000000000001 /* BrandTokensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST0000000000000002 /* BrandTokensTests.swift */; };
+		A001TST0000000000000002 /* BrandRenderChecksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST0000000000000003 /* BrandRenderChecksTests.swift */; };
+		A001TST0000000000000007 /* LaunchScreenAndBrandComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST0000000000000007 /* LaunchScreenAndBrandComponentsTests.swift */; };
+		A001TST0000000000000004 /* TracciNavigationStackTabBarPolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST0000000000000005 /* TracciNavigationStackTabBarPolicyTests.swift */; };
+		A001TST0000000000000005 /* TripHeroMapRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001TST0000000000000006 /* TripHeroMapRefreshTests.swift */; };
+		A001V2F00000000000000001 /* TracciEditorSheetScaffold.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001V2F00000000000000001 /* TracciEditorSheetScaffold.swift */; };
+		A001V2F00000000000000002 /* TracciSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001V2F00000000000000002 /* TracciSelectionRow.swift */; };
+		A001V2F00000000000000003 /* TracciSettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001V2F00000000000000003 /* TracciSettingsRow.swift */; };
+		A001V2F00000000000000004 /* TracciSettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001V2F00000000000000004 /* TracciSettingsSection.swift */; };
+		A001V2F00000000000000005 /* TracciTaskSheetScaffold.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001V2F00000000000000005 /* TracciTaskSheetScaffold.swift */; };
+		A001V2T00000000000000001 /* UIFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001V2T00000000000000001 /* UIFoundationTests.swift */; };
+		A0C100000000000000000001 /* MainTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C100000000000000000001 /* MainTabCoordinator.swift */; };
+		A0C100000000000000000002 /* MainTabCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C100000000000000000002 /* MainTabCoordinatorTests.swift */; };
+		A0D100000000000000000001 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D100000000000000000001 /* AppDependencies.swift */; };
+		A0D100000000000000000002 /* LiveDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D100000000000000000002 /* LiveDependencies.swift */; };
+		A0D100000000000000000003 /* DependencyInjectionArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D100000000000000000003 /* DependencyInjectionArchitectureTests.swift */; };
+		A0DEMO0000000000000001 /* JourneyContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO0000000000000001 /* JourneyContext.swift */; };
+		A0DEMO0000000000000002 /* DemoJourneyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO0000000000000002 /* DemoJourneyModels.swift */; };
+		A0DEMO0000000000000003 /* DemoJourneySchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO0000000000000003 /* DemoJourneySchema.swift */; };
+		A0DEMO0000000000000004 /* DemoJourneyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO0000000000000004 /* DemoJourneyService.swift */; };
+		A0DEMO0000000000000005 /* DemoJourneyCacheStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO0000000000000005 /* DemoJourneyCacheStore.swift */; };
+		A0DEMO0000000000000006 /* DemoMutationGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO0000000000000006 /* DemoMutationGuard.swift */; };
+		A0DEMO0000000000000010 /* HomeDemoJourneyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO0000000000000010 /* HomeDemoJourneyCard.swift */; };
+		A0DEMO0000000000000020 /* DemoReadOnlyCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO0000000000000020 /* DemoReadOnlyCopy.swift */; };
+		A0DEMO0000000000000030 /* DemoJourneyLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO0000000000000030 /* DemoJourneyLoading.swift */; };
+		A0DEMO0000000000000040 /* DemoModeProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO0000000000000040 /* DemoModeProviding.swift */; };
+		A0DEMO0000000000000050 /* DemoJourneyPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO0000000000000050 /* DemoJourneyPreferences.swift */; };
+		A0DEMO00000000000000T1 /* DemoJourneyBundleDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO00000000000000T1 /* DemoJourneyBundleDecodingTests.swift */; };
+		A0DEMO00000000000000T2 /* DemoJourneyCloseoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEMO00000000000000T2 /* DemoJourneyCloseoutTests.swift */; };
+		A0E100000000000000000001 /* MainSceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E100000000000000000001 /* MainSceneFactory.swift */; };
+		A0E100000000000000000002 /* MainSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E100000000000000000002 /* MainSceneViewModel.swift */; };
+		A0E100000000000000000003 /* MainSceneViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E100000000000000000003 /* MainSceneViewModelTests.swift */; };
+		A0F100000000000000000001 /* PhoneAuthProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F100000000000000000001 /* PhoneAuthProviding.swift */; };
+		A0F100000000000000000002 /* TripListActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F100000000000000000002 /* TripListActions.swift */; };
+		A0F100000000000000000003 /* TripPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F100000000000000000003 /* TripPresentation.swift */; };
+		A0F100000000000000000005 /* TripDetailFormRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F100000000000000000005 /* TripDetailFormRouter.swift */; };
+		A0F100000000000000000006 /* StageDDependencyActionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F100000000000000000006 /* StageDDependencyActionsTests.swift */; };
+		A0F1TST000000000000000001 /* TripServiceHTTPStubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1TST000000000000000001 /* TripServiceHTTPStubTests.swift */; };
+		A0F1TST000000000000000002 /* ServiceMappingHTTPStubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1TST000000000000000002 /* ServiceMappingHTTPStubTests.swift */; };
+		A0F1TST000000000000000003 /* SavedPlacePickerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1TST000000000000000003 /* SavedPlacePickerViewModelTests.swift */; };
+		A0F1TST000000000000000004 /* TripDetailRouteStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1TST000000000000000004 /* TripDetailRouteStateTests.swift */; };
+		A0F1TST00000000000000000A /* SavedPlaceAddToTripViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1TST00000000000000000A /* SavedPlaceAddToTripViewModelTests.swift */; };
+		A0F1EXPL000000000000T001 /* PublishedPlacesContractTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000T001 /* PublishedPlacesContractTests.swift */; };
+		A0F1EXPL000000000000T002 /* ExploreHomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000T002 /* ExploreHomeViewModelTests.swift */; };
+		A0F1EXPL000000000000T003 /* ExploreCityViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000T003 /* ExploreCityViewModelTests.swift */; };
+		A0F1EXPL000000000000T004 /* ExplorePlaceSheetViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EXPL000000000000T004 /* ExplorePlaceSheetViewModelTests.swift */; };
+		A0G100000000000000000001 /* TracciDateContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0G100000000000000000001 /* TracciDateContext.swift */; };
+		A0G100000000000000000002 /* TripDateStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0G100000000000000000002 /* TripDateStatus.swift */; };
+		A2003CD408ABA83A437CB342 /* AllTripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00042F53B21347C423A8647 /* AllTripsViewModel.swift */; };
+		A203F2F42EA6476CA03BB4F1 /* JoinTripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F07931AC794E84B3E559E5 /* JoinTripViewModel.swift */; settings = {COMPILER_FLAGS = ""; }; };
+		A3008F768A77A3CE46DA950E /* AllTripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10008EB518AAD8845D79383 /* AllTripsView.swift */; };
+		A4F400000000000000000001 /* ItineraryNodeCreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F400000000000000000001 /* ItineraryNodeCreateViewModel.swift */; };
+		A4F400000000000000000002 /* ItineraryNodePlaceSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F400000000000000000002 /* ItineraryNodePlaceSearchView.swift */; };
+		A4F400000000000000000003 /* ItineraryNodeCreateSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F400000000000000000003 /* ItineraryNodeCreateSheet.swift */; };
+		A4F400000000000000000004 /* ItineraryNodeOptionalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F400000000000000000004 /* ItineraryNodeOptionalDetailsView.swift */; };
+		A4F400000000000000000005 /* ItineraryNodeEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F400000000000000000005 /* ItineraryNodeEditView.swift */; };
+		A4F400000000000000000006 /* ItineraryNodeEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F400000000000000000006 /* ItineraryNodeEditViewModel.swift */; };
+		A4F400000000000000000007 /* ItineraryNodeEditViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F400000000000000000007 /* ItineraryNodeEditViewModelTests.swift */; };
+		A9AB4F87A3AF41C3847E730F /* JoinTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D75CC1F7F1F49ADAE1C20B6 /* JoinTripView.swift */; settings = {COMPILER_FLAGS = ""; }; };
+		A9F000000000000000000001 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B9F000000000000000000001 /* PrivacyInfo.xcprivacy */; };
+		BD84250143AF422695596117 /* TracciBirthDatePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A04706189254A38ABD331F6 /* TracciBirthDatePickerSheet.swift */; };
+		C1007E6CED9083694D67AC6C /* TripMemberModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0008CB9B25D589340DE909C /* TripMemberModels.swift */; };
+		C1107E6CED9083694D67AC6D /* TripAccessUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0108CB9B25D589340DE909D /* TripAccessUpdate.swift */; };
+		C5005027833366B24049B413 /* TripMembersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400A0AFCBD07B0647758DE7 /* TripMembersView.swift */; };
+		C699639EF672995C8F3F6292 /* ExpenseCategoryAddSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C141639E36BDC9D27B79620 /* ExpenseCategoryAddSheet.swift */; };
+		C73A7DE4070843538ED7E321 /* SettlementModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED96F70E44D845DA8F354F13 /* SettlementModels.swift */; settings = {COMPILER_FLAGS = ""; }; };
+		CF402C485EF746D182C80DCB /* CollaborationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E8CBF84594AE092299192 /* CollaborationViewModel.swift */; settings = {COMPILER_FLAGS = ""; }; };
+		CFC583EB5D0F4A45F6B822C1 /* TripCreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2C0AACB709225451F2CF7 /* TripCreateViewModel.swift */; };
+		DB2A2B6B-A283-497C-992B-067386C47E31 /* TripHeroMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E25E197-32FC-4C12-8EC4-BDB06FF0E1C8 /* TripHeroMapView.swift */; };
+		DE5FE38356EE463A9A308223 /* CollaborationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C67C482F3194F3289B2500B /* CollaborationModels.swift */; settings = {COMPILER_FLAGS = ""; }; };
+		E0E100000000000000000001 /* CreateOptionsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E200000000000000000001 /* CreateOptionsOverlay.swift */; };
+		E0E100000000000000000002 /* MainScenePresentationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E200000000000000000002 /* MainScenePresentationModifier.swift */; };
+		E0E100000000000000000003 /* MainTabRouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E200000000000000000003 /* MainTabRouterView.swift */; };
+		E0E100000000000000000004 /* MainTabChromeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E200000000000000000004 /* MainTabChromeView.swift */; };
+		E0E100000000000000000005 /* TripCreekContentSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E200000000000000000005 /* TripCreekContentSections.swift */; };
+		E0E100000000000000000006 /* TripDayMapSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E200000000000000000006 /* TripDayMapSection.swift */; };
+		E0E100000000000000000007 /* TripHeroRouteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E200000000000000000007 /* TripHeroRouteLoader.swift */; };
+		E0E100000000000000000008 /* TripDetailSceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E200000000000000000008 /* TripDetailSceneFactory.swift */; };
+		E0E100000000000000000009 /* TripWeatherModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E200000000000000000009 /* TripWeatherModels.swift */; };
+		E0E10000000000000000000A /* TripListSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E20000000000000000000A /* TripListSorting.swift */; };
+		E0E10000000000000000000B /* ItineraryMutationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E20000000000000000000B /* ItineraryMutationModels.swift */; };
+		E0E10000000000000000000C /* ItineraryFormModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E20000000000000000000C /* ItineraryFormModels.swift */; };
+		E0E10000000000000000000F /* ItineraryExportModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E20000000000000000000F /* ItineraryExportModels.swift */; };
+		E0E100000000000000000010 /* TripSummaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E200000000000000000010 /* TripSummaryModels.swift */; };
+		E0E100000000000000000011 /* TripDetailDemoBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E200000000000000000011 /* TripDetailDemoBanner.swift */; };
+		E8A1B2C3D4E5F60708090A01 /* ExpenseItineraryLinkPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1B2C3D4E5F60708090A02 /* ExpenseItineraryLinkPickerSheet.swift */; };
+		E8A1B2C3D4E5F60718293A02 /* TripMapDayTabRail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1B2C3D4E5F60718293A01 /* TripMapDayTabRail.swift */; };
+		E8A1B2C3D4E5F60718293A05 /* TripMapExploreSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1B2C3D4E5F60718293A04 /* TripMapExploreSurface.swift */; };
+		E8A1B2C3D4E5F60718293B02 /* TripMapExploreGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1B2C3D4E5F60718293B01 /* TripMapExploreGeometry.swift */; };
+		F0F469AD4843429C8D5C3ED9 /* CollaborationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5C14E5C7D8469584F6E2FB /* CollaborationService.swift */; settings = {COMPILER_FLAGS = ""; }; };
+		F373DE5502B2EB68A32B579F /* CreekDecorations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F7E3B6E9920DCF7A3EEE25 /* CreekDecorations.swift */; };
+		F68CA710-F812-4814-961A-2778E51049A9 /* TripHeroMapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D607B0-D1FD-498D-9A09-26BBAA83A9F3 /* TripHeroMapData.swift */; };
+		F7A100000000000000000001 /* TripMemberAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A100000000000000000002 /* TripMemberAvatarView.swift */; };
+		FDCA65F5D64EB2586AB1CACA /* RouteCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD7DAD08A74AB55B6A2481 /* RouteCacheService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		G001TST0000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00100000000000000000002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00100000000000000000001;
+			remoteInfo = Tracci;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0222CF160C28BF27965E4EA9 /* TripOverviewPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TripOverviewPageView.swift; sourceTree = "<group>"; };
+		071238A27B9F2BD549DB48BA /* TripCreateDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCreateDestinationView.swift; sourceTree = "<group>"; };
+		09D607B0-D1FD-498D-9A09-26BBAA83A9F3 /* TripHeroMapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHeroMapData.swift; sourceTree = "<group>"; };
+		1A14DB6A9B7B40B3AF7EC487 /* TripEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripEditViewModel.swift; sourceTree = "<group>"; };
+		1C67C482F3194F3289B2500B /* CollaborationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborationModels.swift; sourceTree = "<group>"; };
+		1ECD7DAD08A74AB55B6A2481 /* RouteCacheService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RouteCacheService.swift; sourceTree = "<group>"; };
+		292FD2B9D9464FCBA4370629 /* ActivityLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogView.swift; sourceTree = "<group>"; };
+		2B9C8961810869C28BF4DB5E /* TripCreateViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCreateViewModelTests.swift; sourceTree = "<group>"; };
+		2D5B66979469492382C42FDA /* CreateInvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateInvitationView.swift; sourceTree = "<group>"; };
+		3D5C14E5C7D8469584F6E2FB /* CollaborationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborationService.swift; sourceTree = "<group>"; };
+		41D638CA89A84C768C379F38 /* TripDateEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDateEditorSheet.swift; sourceTree = "<group>"; };
+		5A04706189254A38ABD331F6 /* TracciBirthDatePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciBirthDatePickerSheet.swift; sourceTree = "<group>"; };
+		5D75CC1F7F1F49ADAE1C20B6 /* JoinTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinTripView.swift; sourceTree = "<group>"; };
+		6B43936B83BC0655397252E1 /* TripEditPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TripEditPolicy.swift; sourceTree = "<group>"; };
+		6E60A4CCE8CA4778A471A809 /* ActivityLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogViewModel.swift; sourceTree = "<group>"; };
+		78409E36-1B38-48C8-9AB2-65941615E1F6 /* TripHeroNodeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHeroNodeCard.swift; sourceTree = "<group>"; };
+		8C141639E36BDC9D27B79620 /* ExpenseCategoryAddSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpenseCategoryAddSheet.swift; path = Features/Expense/ExpenseCategoryAddSheet.swift; sourceTree = "<group>"; };
+		92F7E3B6E9920DCF7A3EEE25 /* CreekDecorations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreekDecorations.swift; sourceTree = "<group>"; };
+		93F07931AC794E84B3E559E5 /* JoinTripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinTripViewModel.swift; sourceTree = "<group>"; };
+		9E25E197-32FC-4C12-8EC4-BDB06FF0E1C8 /* TripHeroMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHeroMapView.swift; sourceTree = "<group>"; };
+		9FE2C0AACB709225451F2CF7 /* TripCreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCreateViewModel.swift; sourceTree = "<group>"; };
+		A00042F53B21347C423A8647 /* AllTripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTripsViewModel.swift; sourceTree = "<group>"; };
+		A10008EB518AAD8845D79383 /* AllTripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTripsView.swift; sourceTree = "<group>"; };
+		B00100000000000000000001 /* TracciApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciApp.swift; sourceTree = "<group>"; };
+		B00100000000000000000002 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		B00100000000000000000003 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B0010000000000000000000A /* AuthToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthToken.swift; sourceTree = "<group>"; };
+		B0010000000000000000000B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B0010000000000000000000C /* AuthSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSession.swift; sourceTree = "<group>"; };
+		B0010000000000000000000D /* TokenRefreshCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRefreshCoordinator.swift; sourceTree = "<group>"; };
+		B0010000000000000000000E /* KeychainTokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTokenStore.swift; sourceTree = "<group>"; };
+		B0010000000000000000000F /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		B00100000000000000000010 /* AppSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSpacing.swift; sourceTree = "<group>"; };
+		B00100000000000000000011 /* AppRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRadius.swift; sourceTree = "<group>"; };
+		B00100000000000000000012 /* AppTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTypography.swift; sourceTree = "<group>"; };
+		B00100000000000000000013 /* AppButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtons.swift; sourceTree = "<group>"; };
+		B00100000000000000000014 /* AppCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCards.swift; sourceTree = "<group>"; };
+		B00100000000000000000015 /* AppStateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateViews.swift; sourceTree = "<group>"; };
+		B00100000000000000000018 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		B00100000000000000000019 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B0010000000000000000001A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		B0010000000000000000001B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B0010000000000000000001C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B0010000000000000000001D /* TripModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModels.swift; sourceTree = "<group>"; };
+		B0010000000000000000001E /* TripListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListItem.swift; sourceTree = "<group>"; };
+		B0010000000000000000001F /* TripService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripService.swift; sourceTree = "<group>"; };
+		B00100000000000000000020 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B00100000000000000000021 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		B00100000000000000000022 /* TripInsightWorkspaceSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInsightWorkspaceSection.swift; sourceTree = "<group>"; };
+		B00100000000000000000023 /* MemoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryView.swift; sourceTree = "<group>"; };
+		B00100000000000000000024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00100000000000000000025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00100000000000000000026 /* Tracci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00100000000000000000027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B00100000000000000000028 /* WeChatLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatLoginManager.swift; sourceTree = "<group>"; };
+		B00100000000000000000031 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B00100000000000000000032 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B00100000000000000000033 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B00100000000000000000034 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B00100000000000000000035 /* WechatOpenSDK-NoPay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "WechatOpenSDK-NoPay.xcframework"; sourceTree = "<group>"; };
+		B00100000000000000000038 /* TripCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCreateView.swift; sourceTree = "<group>"; };
+		B00100000000000000000039 /* TripEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripEditView.swift; sourceTree = "<group>"; };
+		B0010000000000000000003A /* TripFormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFormField.swift; sourceTree = "<group>"; };
+		B0010000000000000000003B /* TripDateRangePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDateRangePicker.swift; sourceTree = "<group>"; };
+		B0010000000000000000003C /* TripCoverPickerPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCoverPickerPlaceholder.swift; sourceTree = "<group>"; };
+		B0010000000000000000003D /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		B0010000000000000000003E /* TripDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewModel.swift; sourceTree = "<group>"; };
+		B0010000000000000000003F /* TripDetailHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailHeader.swift; sourceTree = "<group>"; };
+		B00100000000000000000040 /* TripDetailTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailTabBar.swift; sourceTree = "<group>"; };
+		B00100000000000000000041 /* ItineraryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryModels.swift; sourceTree = "<group>"; };
+		B00100000000000000000042 /* ItineraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryService.swift; sourceTree = "<group>"; };
+		B00100000000000000000043 /* ItineraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryViewModel.swift; sourceTree = "<group>"; };
+		B00100000000000000000044 /* ItineraryTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryTabView.swift; sourceTree = "<group>"; };
+		B00100000000000000000045 /* ItineraryNodeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryNodeCard.swift; sourceTree = "<group>"; };
+		B00100000000000000000047 /* JournalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalModels.swift; sourceTree = "<group>"; };
+		B00100000000000000000048 /* JournalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalService.swift; sourceTree = "<group>"; };
+		B00100000000000000000049 /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
+		B0010000000000000000004B /* JournalEntryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryCard.swift; sourceTree = "<group>"; };
+		B0010000000000000000004C /* JournalFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalFormView.swift; sourceTree = "<group>"; };
+		B0010000000000000000004D /* JournalImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalImagePicker.swift; sourceTree = "<group>"; };
+		B0010000000000000000004E /* ExpenseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModels.swift; sourceTree = "<group>"; };
+		B0010000000000000000004F /* ExpenseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseService.swift; sourceTree = "<group>"; };
+		B00100000000000000000050 /* AppShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShadow.swift; sourceTree = "<group>"; };
+		B00100000000000000000051 /* TracciBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciBottomSheet.swift; sourceTree = "<group>"; };
+		B00100000000000000000052 /* ExpenseFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseFormView.swift; sourceTree = "<group>"; };
+		B00100000000000000000053 /* ExpenseSummaryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSummaryCardView.swift; sourceTree = "<group>"; };
+		B00100000000000000000054 /* ExpenseCategoryChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategoryChartView.swift; sourceTree = "<group>"; };
+		B00100000000000000000055 /* ExpenseListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseListItemView.swift; sourceTree = "<group>"; };
+		B00100000000000000000056 /* ExpenseEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseEmptyStateView.swift; sourceTree = "<group>"; };
+		B00100000000000000000060 /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
+		B00100000000000000000062 /* TripCoverHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCoverHeroView.swift; sourceTree = "<group>"; };
+		B00100000000000000000063 /* SafeAreaMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaMetrics.swift; sourceTree = "<group>"; };
+		B00100000000000000000064 /* ImagePickerProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerProcessing.swift; sourceTree = "<group>"; };
+		B00100000000000000000065 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		B00100000000000000000066 /* JournalPhotoGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPhotoGrid.swift; sourceTree = "<group>"; };
+		B00100000000000000000067 /* POISearchSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POISearchSheet.swift; sourceTree = "<group>"; };
+		B00100000000000000000068 /* JournalMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalMood.swift; sourceTree = "<group>"; };
+		B00100000000000000000069 /* StatsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsModels.swift; sourceTree = "<group>"; };
+		B00100000000000000000070 /* StatsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsService.swift; sourceTree = "<group>"; };
+		B00100000000000000000071 /* TripInsightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInsightViewModel.swift; sourceTree = "<group>"; };
+		B00100000000000000000079 /* ExportModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportModels.swift; sourceTree = "<group>"; };
+		B00100000000000000000080 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		B00100000000000000000081 /* ExportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportViewModel.swift; sourceTree = "<group>"; };
+		B00100000000000000000083 /* ExportTypeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportTypeCard.swift; sourceTree = "<group>"; };
+		B00100000000000000000084 /* ExportOptionsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportOptionsCard.swift; sourceTree = "<group>"; };
+		B00100000000000000000085 /* ExportStatusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportStatusCard.swift; sourceTree = "<group>"; };
+		B00100000000000000000086 /* ExportResultActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportResultActionsView.swift; sourceTree = "<group>"; };
+		B00100000000000000000087 /* ExportShareHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportShareHelper.swift; sourceTree = "<group>"; };
+		B00100000000000000000088 /* ExportFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportFormatting.swift; sourceTree = "<group>"; };
+		B00100000000000000000089 /* ExportTemplateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportTemplateViews.swift; sourceTree = "<group>"; };
+		B00100000000000000000090 /* MemoryPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPageViewModel.swift; sourceTree = "<group>"; };
+		B00100000000000000000091 /* ExportTripPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportTripPicker.swift; sourceTree = "<group>"; };
+		B00100000000000000000092 /* AppMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMotion.swift; sourceTree = "<group>"; };
+		B00100000000000000000093 /* MemoryPosterTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPosterTemplate.swift; sourceTree = "<group>"; };
+		B00100000000000000000094 /* MemoryDesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDesignTokens.swift; sourceTree = "<group>"; };
+		B00100000000000000000095 /* MemoryStoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStoryViewModel.swift; sourceTree = "<group>"; };
+		B00100000000000000000096 /* MemoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryModels.swift; sourceTree = "<group>"; };
+		B00100000000000000000097 /* ProfileModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModels.swift; sourceTree = "<group>"; };
+		B00100000000000000000098 /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		B00100000000000000000099 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		B0010000000000000000009A /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		B0010000000000000000009B /* AccountSecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSecurityView.swift; sourceTree = "<group>"; };
+		B0010000000000000000009C /* AccountSecurityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSecurityViewModel.swift; sourceTree = "<group>"; };
+		B0010000000000000000009D /* HelpFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpFeedbackView.swift; sourceTree = "<group>"; };
+		B0010000000000000000009E /* HelpFeedbackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpFeedbackViewModel.swift; sourceTree = "<group>"; };
+		B0010000000000000000009F /* AboutTracciView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTracciView.swift; sourceTree = "<group>"; };
+		B001000000000000000000A1 /* StatsOverviewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsOverviewModels.swift; sourceTree = "<group>"; };
+		B001000000000000000000A2 /* StatsSpendAnalysisModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsSpendAnalysisModels.swift; sourceTree = "<group>"; };
+		B001000000000000000000A3 /* StatsRecordsAnalysisModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRecordsAnalysisModels.swift; sourceTree = "<group>"; };
+		B001000000000000000000A4 /* StatsFootprintAnalysisModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsFootprintAnalysisModels.swift; sourceTree = "<group>"; };
+		B001000000000000000000A8 /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
+		B001000000000000000000A9 /* ChangePasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewModel.swift; sourceTree = "<group>"; };
+		B001000000000000000000AA /* TripShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripShareSheet.swift; sourceTree = "<group>"; };
+		B001000000000000000000AB /* TripItineraryExportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripItineraryExportSheet.swift; sourceTree = "<group>"; };
+		B001000000000000000000B0 /* TracciDateRangePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciDateRangePickerSheet.swift; sourceTree = "<group>"; };
+		B001000000000000000000B1 /* NavigationLifecycleReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLifecycleReporter.swift; sourceTree = "<group>"; };
+		B001000000000000000000B2 /* TracciTabBarVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciTabBarVisibility.swift; sourceTree = "<group>"; };
+		B001000000000000000000B4 /* InAppSafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppSafariView.swift; sourceTree = "<group>"; };
+		B001000000000000000000B5 /* EmailBindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailBindView.swift; sourceTree = "<group>"; };
+		B001000000000000000000B6 /* EmailBindViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailBindViewModel.swift; sourceTree = "<group>"; };
+		B001000000000000000000B7 /* MemoryDisplayCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDisplayCopy.swift; sourceTree = "<group>"; };
+		B001000000000000000000B8 /* MemoryStoryPagePlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStoryPagePlanner.swift; sourceTree = "<group>"; };
+		B001000000000000000000B9 /* MemoryPreviewFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPreviewFixtures.swift; sourceTree = "<group>"; };
+		B001000000000000000000BA /* PhoneBindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBindView.swift; sourceTree = "<group>"; };
+		B001000000000000000000BB /* PhoneBindViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBindViewModel.swift; sourceTree = "<group>"; };
+		B001000000000000000000BC /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
+		B001000000000000000000BD /* PasswordResetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewModel.swift; sourceTree = "<group>"; };
+		B001000000000000000000BE /* VerificationCodeTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeTimer.swift; sourceTree = "<group>"; };
+		B001000000000000000000BF /* MemoryCompanionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCompanionViews.swift; sourceTree = "<group>"; };
+		B001000000000000000000D1 /* MemoryTripListViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryTripListViews.swift; sourceTree = "<group>"; };
+		B001000000000000000000D2 /* MemoryYearlyReportViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryYearlyReportViews.swift; sourceTree = "<group>"; };
+		B001000000000000000000D3 /* MemoryStartModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStartModal.swift; sourceTree = "<group>"; };
+		B001000000000000000000D4 /* MemoryStoryExperienceViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStoryExperienceViews.swift; sourceTree = "<group>"; };
+		B001000000000000000000D5 /* AccountValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountValidation.swift; sourceTree = "<group>"; };
+		B001000000000000000000D6 /* JournalPreviewFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPreviewFixtures.swift; sourceTree = "<group>"; };
+		B001000000000000000000E1 /* TripDetailLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailLayout.swift; sourceTree = "<group>"; };
+		B001000000000000000000E2 /* TripDayEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDayEmptyStateView.swift; sourceTree = "<group>"; };
+		B001000000000000000000F8 /* TracciOTPCodeField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciOTPCodeField.swift; sourceTree = "<group>"; };
+		B001000000000000000000F9 /* AccountBindChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBindChrome.swift; sourceTree = "<group>"; };
+		B00100000000000000000103 /* StatsRadarDecoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRadarDecoration.swift; sourceTree = "<group>"; };
+		B00100000000000000000104 /* ExpenseFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseFormatters.swift; sourceTree = "<group>"; };
+		B00100000000000000000110 /* MemoryStoryNarrativeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStoryNarrativeBuilder.swift; sourceTree = "<group>"; };
+		B00100000000000000000120 /* AppSkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSkeleton.swift; sourceTree = "<group>"; };
+		B00100000000000000000130 /* AppProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProgressIndicator.swift; sourceTree = "<group>"; };
+		B001000000000000000001A0 /* HomeNavigationRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationRoute.swift; sourceTree = "<group>"; };
+		B001000000000000000001B3 /* TracciInteractivePopGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciInteractivePopGesture.swift; sourceTree = "<group>"; };
+		B001000000000000000001B4 /* AppAtmosphereBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAtmosphereBackground.swift; sourceTree = "<group>"; };
+		B001000000000000000001B5 /* GlobalCreateAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalCreateAction.swift; sourceTree = "<group>"; };
+		B001000000000000000001B6 /* TripDayWorkspaceHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDayWorkspaceHeader.swift; sourceTree = "<group>"; };
+		B001000000000000000001B7 /* GlobalNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalNavigationBar.swift; sourceTree = "<group>"; };
+		B001000000000000000001C0 /* AppNavigationMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationMetrics.swift; sourceTree = "<group>"; };
+		B001000000000000000001E0 /* AppUpdateChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdateChecker.swift; sourceTree = "<group>"; };
+		B001000000000000000001E1 /* VersionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfoView.swift; sourceTree = "<group>"; };
+		B001000000000000000001E2 /* ContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
+		B00100000000000000000210 /* TripWeatherCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripWeatherCard.swift; sourceTree = "<group>"; };
+		B00100000000000000000211 /* TripDayCompactNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDayCompactNavigator.swift; sourceTree = "<group>"; };
+		B00100000000000000000212 /* TripDayRail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDayRail.swift; sourceTree = "<group>"; };
+		B00100000000000000000214 /* TripDetailFABChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailFABChrome.swift; sourceTree = "<group>"; };
+		B00100000000000000000215 /* ExpenseFormMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseFormMode.swift; sourceTree = "<group>"; };
+		B00100000000000000000216 /* TripUnifiedCreekFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripUnifiedCreekFeed.swift; sourceTree = "<group>"; };
+		B00100000000000000000B3 /* AuthLandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthLandingView.swift; sourceTree = "<group>"; };
+		B00100000000000000000C0 /* ATAuthSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ATAuthSDK.xcframework; sourceTree = "<group>"; };
+		B00100000000000000000C1 /* YTXMonitor.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = YTXMonitor.xcframework; sourceTree = "<group>"; };
+		B00100000000000000000C2 /* YTXOperators.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = YTXOperators.xcframework; sourceTree = "<group>"; };
+		B00100000000000000000C3 /* PhoneAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthManager.swift; sourceTree = "<group>"; };
+		B00100000000000000000C4 /* AppDestructiveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDestructiveButton.swift; sourceTree = "<group>"; };
+		B00100000000000000000C5 /* AppPageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPageHeader.swift; sourceTree = "<group>"; };
+		B00100000000000000000C6 /* FormSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSection.swift; sourceTree = "<group>"; };
+		B00100000000000000000C7 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		B00100000000000000000C8 /* TracciPickerSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciPickerSupport.swift; sourceTree = "<group>"; };
+		B00100000000000000000C9 /* TracciDatePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciDatePickerSheet.swift; sourceTree = "<group>"; };
+		B00100000000000000000CA /* TracciTimePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciTimePickerSheet.swift; sourceTree = "<group>"; };
+		B00100000000000000000CB /* TracciToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciToast.swift; sourceTree = "<group>"; };
+		B00100000000000000000CC /* TracciActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciActionSheet.swift; sourceTree = "<group>"; };
+		B00100000000000000000CD /* TracciFormControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciFormControls.swift; sourceTree = "<group>"; };
+		B00100000000000000000CE /* TracciSheetPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciSheetPresentation.swift; sourceTree = "<group>"; };
+		B00100000000000000000CF /* TracciFormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciFormField.swift; sourceTree = "<group>"; };
+		B00100000000000000000D0 /* TracciPlaceSearchSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciPlaceSearchSheet.swift; sourceTree = "<group>"; };
+		B00100000000000000000D1 /* TracciFormChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciFormChrome.swift; sourceTree = "<group>"; };
+		B00100000000000000000D7 /* TripCoverImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCoverImageLoader.swift; sourceTree = "<group>"; };
+		B00100000000000000000E2 /* TracciSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciSwipeActions.swift; sourceTree = "<group>"; };
+		B0010000000000000000BR01 /* BrandTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTokens.swift; sourceTree = "<group>"; };
+		B0010000000000000000BR02 /* BrandLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandLogoView.swift; sourceTree = "<group>"; };
+		B0010000000000000000BR03 /* BrandWordmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandWordmarkView.swift; sourceTree = "<group>"; };
+		B0010000000000000000BR04 /* BrandSloganView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandSloganView.swift; sourceTree = "<group>"; };
+		B0010000000000000000BR05 /* BrandWatermarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandWatermarkView.swift; sourceTree = "<group>"; };
+		B0010000000000000000BR06 /* BrandAmbientGlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandAmbientGlow.swift; sourceTree = "<group>"; };
+		B0010000000000000000BR07 /* BrandUIKitHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandUIKitHost.swift; sourceTree = "<group>"; };
+		B0010000000000000000BR08 /* BrandRenderChecks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandRenderChecks.swift; sourceTree = "<group>"; };
+		B0010000000000000000BR09 /* BrandLockupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandLockupView.swift; sourceTree = "<group>"; };
+		B0010000000000000000BR10 /* BrandPreviewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandPreviewSupport.swift; sourceTree = "<group>"; };
+		B0010000000000000000E413A849 /* PlaceCategoryGlyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCategoryGlyph.swift; sourceTree = "<group>"; };
+		B001SAVED00000000000001 /* SavedPlaceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlaceModels.swift; sourceTree = "<group>"; };
+		B001SAVED00000000000002 /* SavedPlaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlaceService.swift; sourceTree = "<group>"; };
+		B001SAVED00000000000003 /* SavedPlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlacesView.swift; sourceTree = "<group>"; };
+		B001SAVED00000000000004 /* SavedPlaceModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlaceModelsTests.swift; sourceTree = "<group>"; };
+		B001SAVED00000000000011 /* SavedPlaceEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlaceEditorView.swift; sourceTree = "<group>"; };
+		B001SAVED00000000000012 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		B001SAVED00000000000013 /* SavedPlacePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlacePickerView.swift; sourceTree = "<group>"; };
+		B001SAVED00000000000014 /* SavedPlacesPreviewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlacesPreviewSupport.swift; sourceTree = "<group>"; };
+		B001SAVED00000000000015 /* SavedPlaceTripCapability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlaceTripCapability.swift; sourceTree = "<group>"; };
+		B001SAVED00000000000016 /* SavedPlaceAddToTripSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlaceAddToTripSheet.swift; sourceTree = "<group>"; };
+		B001SAVED00000000000017 /* SavedPlacesEntryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlacesEntryCard.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000S001 /* ExploreRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRootView.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000S002 /* ExploreHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreHomeViewModel.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000S003 /* ExploreCityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCityCard.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000S004 /* ExploreHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreHomeView.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000S005 /* ExploreCityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCityViewModel.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000S006 /* ExploreCityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCityView.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000S007 /* ExplorePlaceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePlaceRow.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000S008 /* ExplorePlaceEditorialContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePlaceEditorialContent.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000S009 /* ExplorePlaceSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePlaceSheetViewModel.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000S010 /* ExplorePlaceSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePlaceSheetView.swift; sourceTree = "<group>"; };
+		B001TST000000000000000005 /* TripRequestEncodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRequestEncodingTests.swift; sourceTree = "<group>"; };
+		B001TST000000000000000006 /* ItineraryMutationRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryMutationRequestTests.swift; sourceTree = "<group>"; };
+		B001TST000000000000000007 /* ItineraryFormStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryFormStateTests.swift; sourceTree = "<group>"; };
+		B001TST000000000000000008 /* CategoryMappingCharacterizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMappingCharacterizationTests.swift; sourceTree = "<group>"; };
+		B001TST000000000000000009 /* ItineraryServiceHTTPStubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryServiceHTTPStubTests.swift; sourceTree = "<group>"; };
+		B001TST000000000000000010 /* HTTPStubSmokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStubSmokeTests.swift; sourceTree = "<group>"; };
+		B001TST000000000000000011 /* CapabilityStubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSupport/CapabilityStubs.swift; sourceTree = "<group>"; };
+		B001TST000000000000000012 /* ItineraryFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSupport/ItineraryFixtures.swift; sourceTree = "<group>"; };
+		B001TST000000000000000014 /* ItineraryViewModelMutationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryViewModelMutationTests.swift; sourceTree = "<group>"; };
+		B001TST0000000000000001 /* TracciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B001TST0000000000000002 /* BrandTokensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTokensTests.swift; sourceTree = "<group>"; };
+		B001TST0000000000000003 /* BrandRenderChecksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandRenderChecksTests.swift; sourceTree = "<group>"; };
+		B001TST0000000000000007 /* LaunchScreenAndBrandComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenAndBrandComponentsTests.swift; sourceTree = "<group>"; };
+		B001TST0000000000000005 /* TracciNavigationStackTabBarPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciNavigationStackTabBarPolicyTests.swift; sourceTree = "<group>"; };
+		B001TST0000000000000006 /* TripHeroMapRefreshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHeroMapRefreshTests.swift; sourceTree = "<group>"; };
+		B001V2F00000000000000001 /* TracciEditorSheetScaffold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciEditorSheetScaffold.swift; sourceTree = "<group>"; };
+		B001V2F00000000000000002 /* TracciSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciSelectionRow.swift; sourceTree = "<group>"; };
+		B001V2F00000000000000003 /* TracciSettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciSettingsRow.swift; sourceTree = "<group>"; };
+		B001V2F00000000000000004 /* TracciSettingsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciSettingsSection.swift; sourceTree = "<group>"; };
+		B001V2F00000000000000005 /* TracciTaskSheetScaffold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciTaskSheetScaffold.swift; sourceTree = "<group>"; };
+		B001V2T00000000000000001 /* UIFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFoundationTests.swift; sourceTree = "<group>"; };
+		B0C100000000000000000001 /* MainTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabCoordinator.swift; sourceTree = "<group>"; };
+		B0C100000000000000000002 /* MainTabCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabCoordinatorTests.swift; sourceTree = "<group>"; };
+		B0D100000000000000000001 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		B0D100000000000000000002 /* LiveDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDependencies.swift; sourceTree = "<group>"; };
+		B0D100000000000000000003 /* DependencyInjectionArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionArchitectureTests.swift; sourceTree = "<group>"; };
+		B0DEMO0000000000000001 /* JourneyContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyContext.swift; sourceTree = "<group>"; };
+		B0DEMO0000000000000002 /* DemoJourneyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoJourneyModels.swift; sourceTree = "<group>"; };
+		B0DEMO0000000000000003 /* DemoJourneySchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoJourneySchema.swift; sourceTree = "<group>"; };
+		B0DEMO0000000000000004 /* DemoJourneyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoJourneyService.swift; sourceTree = "<group>"; };
+		B0DEMO0000000000000005 /* DemoJourneyCacheStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoJourneyCacheStore.swift; sourceTree = "<group>"; };
+		B0DEMO0000000000000006 /* DemoMutationGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMutationGuard.swift; sourceTree = "<group>"; };
+		B0DEMO0000000000000010 /* HomeDemoJourneyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDemoJourneyCard.swift; sourceTree = "<group>"; };
+		B0DEMO0000000000000020 /* DemoReadOnlyCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoReadOnlyCopy.swift; sourceTree = "<group>"; };
+		B0DEMO0000000000000030 /* DemoJourneyLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoJourneyLoading.swift; sourceTree = "<group>"; };
+		B0DEMO0000000000000040 /* DemoModeProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoModeProviding.swift; sourceTree = "<group>"; };
+		B0DEMO0000000000000050 /* DemoJourneyPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoJourneyPreferences.swift; sourceTree = "<group>"; };
+		B0DEMO00000000000000T1 /* DemoJourneyBundleDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoJourneyBundleDecodingTests.swift; sourceTree = "<group>"; };
+		B0DEMO00000000000000T2 /* DemoJourneyCloseoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoJourneyCloseoutTests.swift; sourceTree = "<group>"; };
+		B0E100000000000000000001 /* MainSceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSceneFactory.swift; sourceTree = "<group>"; };
+		B0E100000000000000000002 /* MainSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSceneViewModel.swift; sourceTree = "<group>"; };
+		B0E100000000000000000003 /* MainSceneViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSceneViewModelTests.swift; sourceTree = "<group>"; };
+		B0F100000000000000000001 /* PhoneAuthProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthProviding.swift; sourceTree = "<group>"; };
+		B0F100000000000000000002 /* TripListActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListActions.swift; sourceTree = "<group>"; };
+		B0F100000000000000000003 /* TripPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPresentation.swift; sourceTree = "<group>"; };
+		B0F100000000000000000005 /* TripDetailFormRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailFormRouter.swift; sourceTree = "<group>"; };
+		B0F100000000000000000006 /* StageDDependencyActionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageDDependencyActionsTests.swift; sourceTree = "<group>"; };
+		B0F1TST000000000000000001 /* TripServiceHTTPStubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripServiceHTTPStubTests.swift; sourceTree = "<group>"; };
+		B0F1TST000000000000000002 /* ServiceMappingHTTPStubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMappingHTTPStubTests.swift; sourceTree = "<group>"; };
+		B0F1TST000000000000000003 /* SavedPlacePickerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlacePickerViewModelTests.swift; sourceTree = "<group>"; };
+		B0F1TST000000000000000004 /* TripDetailRouteStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailRouteStateTests.swift; sourceTree = "<group>"; };
+		B0F1TST00000000000000000A /* SavedPlaceAddToTripViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlaceAddToTripViewModelTests.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000T001 /* PublishedPlacesContractTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedPlacesContractTests.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000T002 /* ExploreHomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreHomeViewModelTests.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000T003 /* ExploreCityViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCityViewModelTests.swift; sourceTree = "<group>"; };
+		B0F1EXPL000000000000T004 /* ExplorePlaceSheetViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePlaceSheetViewModelTests.swift; sourceTree = "<group>"; };
+		B0G100000000000000000001 /* TracciDateContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciDateContext.swift; sourceTree = "<group>"; };
+		B0G100000000000000000002 /* TripDateStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDateStatus.swift; sourceTree = "<group>"; };
+		B4F400000000000000000001 /* ItineraryNodeCreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryNodeCreateViewModel.swift; sourceTree = "<group>"; };
+		B4F400000000000000000002 /* ItineraryNodePlaceSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryNodePlaceSearchView.swift; sourceTree = "<group>"; };
+		B4F400000000000000000003 /* ItineraryNodeCreateSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryNodeCreateSheet.swift; sourceTree = "<group>"; };
+		B4F400000000000000000004 /* ItineraryNodeOptionalDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryNodeOptionalDetailsView.swift; sourceTree = "<group>"; };
+		B4F400000000000000000005 /* ItineraryNodeEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryNodeEditView.swift; sourceTree = "<group>"; };
+		B4F400000000000000000006 /* ItineraryNodeEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryNodeEditViewModel.swift; sourceTree = "<group>"; };
+		B4F400000000000000000007 /* ItineraryNodeEditViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryNodeEditViewModelTests.swift; sourceTree = "<group>"; };
+		B70E8CBF84594AE092299192 /* CollaborationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborationViewModel.swift; sourceTree = "<group>"; };
+		B9F000000000000000000001 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		BD36F543E0384349BC875A16 /* SettlementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettlementView.swift; sourceTree = "<group>"; };
+		C0008CB9B25D589340DE909C /* TripMemberModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMemberModels.swift; sourceTree = "<group>"; };
+		C0108CB9B25D589340DE909D /* TripAccessUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAccessUpdate.swift; sourceTree = "<group>"; };
+		C400A0AFCBD07B0647758DE7 /* TripMembersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMembersView.swift; sourceTree = "<group>"; };
+		C7029984-7DC6-4802-800D-0E955AFE3F6D /* TripNodeCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripNodeCarouselView.swift; sourceTree = "<group>"; };
+		C885A5DE-A95D-42D3-B3AD-5E4F48B14635 /* TripHeroModeToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHeroModeToggle.swift; sourceTree = "<group>"; };
+		CD193A8679914728B6FF6122 /* TripDestinationSelectionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDestinationSelectionSheet.swift; sourceTree = "<group>"; };
+		D2A09958D35045CABA1C1B36 /* SettlementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettlementViewModel.swift; sourceTree = "<group>"; };
+		DC14B86A35DCEBCBAD27416B /* TripEditPolicyTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TripEditPolicyTests.swift; sourceTree = "<group>"; };
+		DC14B86A35DCEBCBAD27416C /* TripEditViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripEditViewModelTests.swift; sourceTree = "<group>"; };
+		DD14B86A35DCEBCBAD27416B /* CollaborationModelsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollaborationModelsTests.swift; sourceTree = "<group>"; };
+		E0E200000000000000000001 /* CreateOptionsOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOptionsOverlay.swift; sourceTree = "<group>"; };
+		E0E200000000000000000002 /* MainScenePresentationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScenePresentationModifier.swift; sourceTree = "<group>"; };
+		E0E200000000000000000003 /* MainTabRouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabRouterView.swift; sourceTree = "<group>"; };
+		E0E200000000000000000004 /* MainTabChromeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabChromeView.swift; sourceTree = "<group>"; };
+		E0E200000000000000000005 /* TripCreekContentSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCreekContentSections.swift; sourceTree = "<group>"; };
+		E0E200000000000000000006 /* TripDayMapSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDayMapSection.swift; sourceTree = "<group>"; };
+		E0E200000000000000000007 /* TripHeroRouteLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHeroRouteLoader.swift; sourceTree = "<group>"; };
+		E0E200000000000000000008 /* TripDetailSceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailSceneFactory.swift; sourceTree = "<group>"; };
+		E0E200000000000000000009 /* TripWeatherModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripWeatherModels.swift; sourceTree = "<group>"; };
+		E0E20000000000000000000A /* TripListSorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListSorting.swift; sourceTree = "<group>"; };
+		E0E20000000000000000000B /* ItineraryMutationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryMutationModels.swift; sourceTree = "<group>"; };
+		E0E20000000000000000000C /* ItineraryFormModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryFormModels.swift; sourceTree = "<group>"; };
+		E0E20000000000000000000F /* ItineraryExportModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryExportModels.swift; sourceTree = "<group>"; };
+		E0E200000000000000000010 /* TripSummaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSummaryModels.swift; sourceTree = "<group>"; };
+		E0E200000000000000000011 /* TripDetailDemoBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailDemoBanner.swift; sourceTree = "<group>"; };
+		E0E70142-92BE-4F43-A700-B4F4BFEE17B3 /* TripHeroMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHeroMode.swift; sourceTree = "<group>"; };
+		E8A1B2C3D4E5F60708090A02 /* ExpenseItineraryLinkPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItineraryLinkPickerSheet.swift; sourceTree = "<group>"; };
+		E8A1B2C3D4E5F60718293A01 /* TripMapDayTabRail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapDayTabRail.swift; sourceTree = "<group>"; };
+		E8A1B2C3D4E5F60718293A04 /* TripMapExploreSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapExploreSurface.swift; sourceTree = "<group>"; };
+		E8A1B2C3D4E5F60718293B01 /* TripMapExploreGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapExploreGeometry.swift; sourceTree = "<group>"; };
+		ED96F70E44D845DA8F354F13 /* SettlementModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettlementModels.swift; sourceTree = "<group>"; };
+		F3D106E883124DB6B3A33161 /* StatsRhythmDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRhythmDots.swift; sourceTree = "<group>"; };
+		F7A100000000000000000002 /* TripMemberAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMemberAvatarView.swift; sourceTree = "<group>"; };
+		FE5E6723C9E74C149F81397D /* TracciGenderPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracciGenderPickerSheet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00100000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B8ABF93035F45500A9C488 /* TracciNetworking in Frameworks */,
+				A00100000000000000000028 /* WebKit.framework in Frameworks */,
+				A00100000000000000000029 /* libc++.tbd in Frameworks */,
+				A0010000000000000000002A /* Security.framework in Frameworks */,
+				A0010000000000000000002B /* CoreGraphics.framework in Frameworks */,
+				A00100000000000000000C0 /* ATAuthSDK.xcframework in Frameworks */,
+				A00100000000000000000C1 /* YTXMonitor.xcframework in Frameworks */,
+				A00100000000000000000C2 /* YTXOperators.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C001TST0000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B8ABFB3035F45500A9C488 /* TracciTestSupport in Frameworks */,
+				26B8ABFA3035F45500A9C488 /* TracciNetworking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00100000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D00100000000000000000003 /* App */,
+				D00100000000000000000004 /* Core */,
+				D0010000000000000000000A /* Features */,
+				D00100000000000000000015 /* Resources */,
+				D00100000000000000000018 /* ThirdParty */,
+				D0010000000000000000001A /* Frameworks */,
+				D001TST0000000000000001 /* TracciTests */,
+				D00100000000000000000017 /* Products */,
+				8C141639E36BDC9D27B79620 /* ExpenseCategoryAddSheet.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		D00100000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D0D100000000000000000001 /* Composition */,
+				D0C100000000000000000001 /* Navigation */,
+				D0E100000000000000000001 /* Scene */,
+				E0E300000000000000000001 /* CreateFlow */,
+				B00100000000000000000001 /* TracciApp.swift */,
+				B00100000000000000000027 /* AppDelegate.swift */,
+				B00100000000000000000002 /* AppRootView.swift */,
+				B00100000000000000000003 /* MainTabView.swift */,
+				B001000000000000000001B5 /* GlobalCreateAction.swift */,
+				B001000000000000000001B7 /* GlobalNavigationBar.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000004 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D00100000000000000000005 /* Network */,
+				D00100000000000000000006 /* Auth */,
+				D00100000000000000000007 /* Storage */,
+				D00100000000000000000008 /* DesignSystem */,
+				D00100000000000000000009 /* Utils */,
+				D00100000000000000000014 /* Location */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000005 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000006 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B0010000000000000000000A /* AuthToken.swift */,
+				B0010000000000000000000B /* AuthService.swift */,
+				B0010000000000000000000C /* AuthSession.swift */,
+				B0010000000000000000000D /* TokenRefreshCoordinator.swift */,
+				B00100000000000000000028 /* WeChatLoginManager.swift */,
+				B00100000000000000000C3 /* PhoneAuthManager.swift */,
+				B0F100000000000000000001 /* PhoneAuthProviding.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000007 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				B0010000000000000000000E /* KeychainTokenStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000008 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B0010000000000000000000F /* AppColors.swift */,
+				B001000000000000000001B4 /* AppAtmosphereBackground.swift */,
+				B00100000000000000000010 /* AppSpacing.swift */,
+				B001000000000000000001C0 /* AppNavigationMetrics.swift */,
+				B00100000000000000000011 /* AppRadius.swift */,
+				B00100000000000000000012 /* AppTypography.swift */,
+				B00100000000000000000013 /* AppButtons.swift */,
+				B001V2F00000000000000001 /* TracciEditorSheetScaffold.swift */,
+				B001V2F00000000000000002 /* TracciSelectionRow.swift */,
+				B001V2F00000000000000003 /* TracciSettingsRow.swift */,
+				B001V2F00000000000000004 /* TracciSettingsSection.swift */,
+				B001V2F00000000000000005 /* TracciTaskSheetScaffold.swift */,
+				B00100000000000000000C4 /* AppDestructiveButton.swift */,
+				B00100000000000000000014 /* AppCards.swift */,
+				B00100000000000000000C5 /* AppPageHeader.swift */,
+				B00100000000000000000092 /* AppMotion.swift */,
+				B00100000000000000000015 /* AppStateViews.swift */,
+				B00100000000000000000120 /* AppSkeleton.swift */,
+				B00100000000000000000130 /* AppProgressIndicator.swift */,
+				D0010000000000000000BR00 /* Brand */,
+				B00100000000000000000050 /* AppShadow.swift */,
+				B00100000000000000000051 /* TracciBottomSheet.swift */,
+				B001000000000000000000B0 /* TracciDateRangePickerSheet.swift */,
+				B00100000000000000000C8 /* TracciPickerSupport.swift */,
+				B00100000000000000000C9 /* TracciDatePickerSheet.swift */,
+				FE5E6723C9E74C149F81397D /* TracciGenderPickerSheet.swift */,
+				5A04706189254A38ABD331F6 /* TracciBirthDatePickerSheet.swift */,
+				B00100000000000000000CA /* TracciTimePickerSheet.swift */,
+				B00100000000000000000CB /* TracciToast.swift */,
+				B00100000000000000000E2 /* TracciSwipeActions.swift */,
+				B00100000000000000000CC /* TracciActionSheet.swift */,
+				B00100000000000000000CD /* TracciFormControls.swift */,
+				B00100000000000000000C6 /* FormSection.swift */,
+				B00100000000000000000CE /* TracciSheetPresentation.swift */,
+				B00100000000000000000CF /* TracciFormField.swift */,
+				B001000000000000000000F8 /* TracciOTPCodeField.swift */,
+				B00100000000000000000D1 /* TracciFormChrome.swift */,
+				B00100000000000000000C7 /* SectionHeader.swift */,
+				92F7E3B6E9920DCF7A3EEE25 /* CreekDecorations.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000009 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000064 /* ImagePickerProcessing.swift */,
+				B00100000000000000000063 /* SafeAreaMetrics.swift */,
+				B001000000000000000000B1 /* NavigationLifecycleReporter.swift */,
+				B001000000000000000000B2 /* TracciTabBarVisibility.swift */,
+				B001000000000000000001B3 /* TracciInteractivePopGesture.swift */,
+				B00100000000000000000104 /* ExpenseFormatters.swift */,
+				B0G100000000000000000001 /* TracciDateContext.swift */,
+				B00100000000000000000D7 /* TripCoverImageLoader.swift */,
+				B001000000000000000001E0 /* AppUpdateChecker.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D0010000000000000000000A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F2377D8C888C4BDF9D485AB6 /* Collaboration */,
+				D0DEMO0000000000000001 /* Demo */,
+				D0010000000000000000000B /* Auth */,
+				D0010000000000000000000C /* Home */,
+				D0010000000000000000000D /* Trip */,
+				D0010000000000000000000E /* Profile */,
+				D0010000000000000000000F /* Itinerary */,
+				D001SAVED00000000000001 /* SavedPlaces */,
+				D0F1EXPL000000000000G001 /* Explore */,
+				D00100000000000000000010 /* Journal */,
+				D00100000000000000000011 /* Expense */,
+				D00100000000000000000012 /* Stats */,
+				D00100000000000000000016 /* Memory */,
+				D00100000000000000000013 /* Export */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D0010000000000000000000B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000019 /* LoginView.swift */,
+				B0010000000000000000001A /* RegisterView.swift */,
+				B001000000000000000000B4 /* InAppSafariView.swift */,
+				B00100000000000000000B3 /* AuthLandingView.swift */,
+				B00100000000000000000018 /* AuthViewModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D0010000000000000000000C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B0010000000000000000001B /* HomeView.swift */,
+				B0DEMO0000000000000010 /* HomeDemoJourneyCard.swift */,
+				B001000000000000000001A0 /* HomeNavigationRoute.swift */,
+				B0010000000000000000001C /* HomeViewModel.swift */,
+				B0F100000000000000000002 /* TripListActions.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D0010000000000000000000D /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				D0010000000000000000001B /* Components */,
+				B0010000000000000000001D /* TripModels.swift */,
+				B0G100000000000000000002 /* TripDateStatus.swift */,
+				E0E200000000000000000009 /* TripWeatherModels.swift */,
+				E0E20000000000000000000A /* TripListSorting.swift */,
+				B0010000000000000000001E /* TripListItem.swift */,
+				B0010000000000000000001F /* TripService.swift */,
+				B00100000000000000000038 /* TripCreateView.swift */,
+				9FE2C0AACB709225451F2CF7 /* TripCreateViewModel.swift */,
+				071238A27B9F2BD549DB48BA /* TripCreateDestinationView.swift */,
+				B00100000000000000000039 /* TripEditView.swift */,
+				B0010000000000000000003D /* TripDetailView.swift */,
+				E0E200000000000000000008 /* TripDetailSceneFactory.swift */,
+				B00100000000000000000215 /* ExpenseFormMode.swift */,
+				E0E70142-92BE-4F43-A700-B4F4BFEE17B3 /* TripHeroMode.swift */,
+				09D607B0-D1FD-498D-9A09-26BBAA83A9F3 /* TripHeroMapData.swift */,
+				B00100000000000000000216 /* TripUnifiedCreekFeed.swift */,
+				B0010000000000000000003E /* TripDetailViewModel.swift */,
+				A00042F53B21347C423A8647 /* AllTripsViewModel.swift */,
+				A10008EB518AAD8845D79383 /* AllTripsView.swift */,
+				C0008CB9B25D589340DE909C /* TripMemberModels.swift */,
+				C0108CB9B25D589340DE909D /* TripAccessUpdate.swift */,
+				C400A0AFCBD07B0647758DE7 /* TripMembersView.swift */,
+				6B43936B83BC0655397252E1 /* TripEditPolicy.swift */,
+				B0F100000000000000000003 /* TripPresentation.swift */,
+				1A14DB6A9B7B40B3AF7EC487 /* TripEditViewModel.swift */,
+				CD193A8679914728B6FF6122 /* TripDestinationSelectionSheet.swift */,
+				41D638CA89A84C768C379F38 /* TripDateEditorSheet.swift */,
+				B0F100000000000000000005 /* TripDetailFormRouter.swift */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		D0010000000000000000000E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000020 /* ProfileView.swift */,
+				B00100000000000000000021 /* ProfileViewModel.swift */,
+				B00100000000000000000097 /* ProfileModels.swift */,
+				B00100000000000000000098 /* ProfileService.swift */,
+				B00100000000000000000099 /* EditProfileView.swift */,
+				B0010000000000000000009A /* EditProfileViewModel.swift */,
+				B0010000000000000000009B /* AccountSecurityView.swift */,
+				B0010000000000000000009C /* AccountSecurityViewModel.swift */,
+				B0010000000000000000009D /* HelpFeedbackView.swift */,
+				B0010000000000000000009E /* HelpFeedbackViewModel.swift */,
+				B0010000000000000000009F /* AboutTracciView.swift */,
+				B001000000000000000001E1 /* VersionInfoView.swift */,
+				B001000000000000000001E2 /* ContactUsView.swift */,
+				B001000000000000000000A8 /* ChangePasswordView.swift */,
+				B001000000000000000000A9 /* ChangePasswordViewModel.swift */,
+				B001000000000000000000B5 /* EmailBindView.swift */,
+				B001000000000000000000B6 /* EmailBindViewModel.swift */,
+				B001000000000000000000BA /* PhoneBindView.swift */,
+				B001000000000000000000BB /* PhoneBindViewModel.swift */,
+				B001000000000000000000BC /* PasswordResetView.swift */,
+				B001000000000000000000BD /* PasswordResetViewModel.swift */,
+				B001000000000000000000BE /* VerificationCodeTimer.swift */,
+				B001000000000000000000D5 /* AccountValidation.swift */,
+				B001000000000000000000F9 /* AccountBindChrome.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D0010000000000000000000F /* Itinerary */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000041 /* ItineraryModels.swift */,
+				E0E20000000000000000000B /* ItineraryMutationModels.swift */,
+				E0E20000000000000000000C /* ItineraryFormModels.swift */,
+				B00100000000000000000042 /* ItineraryService.swift */,
+				B00100000000000000000043 /* ItineraryViewModel.swift */,
+				B00100000000000000000044 /* ItineraryTabView.swift */,
+				B00100000000000000000045 /* ItineraryNodeCard.swift */,
+				B4F400000000000000000001 /* ItineraryNodeCreateViewModel.swift */,
+				B4F400000000000000000002 /* ItineraryNodePlaceSearchView.swift */,
+				B4F400000000000000000003 /* ItineraryNodeCreateSheet.swift */,
+				B4F400000000000000000004 /* ItineraryNodeOptionalDetailsView.swift */,
+				B4F400000000000000000005 /* ItineraryNodeEditView.swift */,
+				B4F400000000000000000006 /* ItineraryNodeEditViewModel.swift */,
+			);
+			path = Itinerary;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000010 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000047 /* JournalModels.swift */,
+				B00100000000000000000048 /* JournalService.swift */,
+				B00100000000000000000049 /* JournalViewModel.swift */,
+				B0010000000000000000004B /* JournalEntryCard.swift */,
+				B0010000000000000000004C /* JournalFormView.swift */,
+				B0010000000000000000004D /* JournalImagePicker.swift */,
+				B00100000000000000000066 /* JournalPhotoGrid.swift */,
+				B00100000000000000000067 /* POISearchSheet.swift */,
+				B00100000000000000000068 /* JournalMood.swift */,
+				B001000000000000000000D6 /* JournalPreviewFixtures.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000011 /* Expense */ = {
+			isa = PBXGroup;
+			children = (
+				ED96F70E44D845DA8F354F13 /* SettlementModels.swift */,
+				BD36F543E0384349BC875A16 /* SettlementView.swift */,
+				D2A09958D35045CABA1C1B36 /* SettlementViewModel.swift */,
+				B0010000000000000000004E /* ExpenseModels.swift */,
+				B0010000000000000000004F /* ExpenseService.swift */,
+				B00100000000000000000060 /* ExpenseViewModel.swift */,
+				B00100000000000000000052 /* ExpenseFormView.swift */,
+				E8A1B2C3D4E5F60708090A02 /* ExpenseItineraryLinkPickerSheet.swift */,
+				B00100000000000000000053 /* ExpenseSummaryCardView.swift */,
+				B00100000000000000000054 /* ExpenseCategoryChartView.swift */,
+				B00100000000000000000055 /* ExpenseListItemView.swift */,
+				B00100000000000000000056 /* ExpenseEmptyStateView.swift */,
+			);
+			path = Expense;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000012 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000103 /* StatsRadarDecoration.swift */,
+				B00100000000000000000022 /* TripInsightWorkspaceSection.swift */,
+				B00100000000000000000069 /* StatsModels.swift */,
+				B001000000000000000000A1 /* StatsOverviewModels.swift */,
+				B001000000000000000000A2 /* StatsSpendAnalysisModels.swift */,
+				B001000000000000000000A3 /* StatsRecordsAnalysisModels.swift */,
+				B001000000000000000000A4 /* StatsFootprintAnalysisModels.swift */,
+				B00100000000000000000070 /* StatsService.swift */,
+				B00100000000000000000071 /* TripInsightViewModel.swift */,
+				F3D106E883124DB6B3A33161 /* StatsRhythmDots.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000013 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000079 /* ExportModels.swift */,
+				E0E20000000000000000000F /* ItineraryExportModels.swift */,
+				E0E200000000000000000010 /* TripSummaryModels.swift */,
+				B00100000000000000000080 /* ExportService.swift */,
+				B00100000000000000000081 /* ExportViewModel.swift */,
+				B00100000000000000000083 /* ExportTypeCard.swift */,
+				B00100000000000000000084 /* ExportOptionsCard.swift */,
+				B00100000000000000000085 /* ExportStatusCard.swift */,
+				B00100000000000000000086 /* ExportResultActionsView.swift */,
+				B00100000000000000000087 /* ExportShareHelper.swift */,
+				B00100000000000000000088 /* ExportFormatting.swift */,
+				B00100000000000000000089 /* ExportTemplateViews.swift */,
+				B00100000000000000000091 /* ExportTripPicker.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000014 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000065 /* LocationService.swift */,
+				B00100000000000000000D0 /* TracciPlaceSearchSheet.swift */,
+				1ECD7DAD08A74AB55B6A2481 /* RouteCacheService.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000015 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000024 /* Assets.xcassets */,
+				B00100000000000000000025 /* Info.plist */,
+				B9F000000000000000000001 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000016 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000023 /* MemoryView.swift */,
+				B001000000000000000000BF /* MemoryCompanionViews.swift */,
+				B001000000000000000000D1 /* MemoryTripListViews.swift */,
+				B001000000000000000000D2 /* MemoryYearlyReportViews.swift */,
+				B001000000000000000000D3 /* MemoryStartModal.swift */,
+				B001000000000000000000D4 /* MemoryStoryExperienceViews.swift */,
+				B00100000000000000000096 /* MemoryModels.swift */,
+				B001000000000000000000B7 /* MemoryDisplayCopy.swift */,
+				B00100000000000000000110 /* MemoryStoryNarrativeBuilder.swift */,
+				B001000000000000000000B8 /* MemoryStoryPagePlanner.swift */,
+				B001000000000000000000B9 /* MemoryPreviewFixtures.swift */,
+				B00100000000000000000090 /* MemoryPageViewModel.swift */,
+				B00100000000000000000095 /* MemoryStoryViewModel.swift */,
+				B00100000000000000000094 /* MemoryDesignTokens.swift */,
+				B00100000000000000000093 /* MemoryPosterTemplate.swift */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000026 /* Tracci.app */,
+				B001TST0000000000000001 /* TracciTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000018 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				D00100000000000000000019 /* WechatOpenSDK */,
+				D00100000000000000000C0 /* ATAuthSDK */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000019 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000035 /* WechatOpenSDK-NoPay.xcframework */,
+			);
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		D0010000000000000000001A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000031 /* WebKit.framework */,
+				B00100000000000000000032 /* libc++.tbd */,
+				B00100000000000000000033 /* Security.framework */,
+				B00100000000000000000034 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0010000000000000000001B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B001000000000000000000E1 /* TripDetailLayout.swift */,
+				B0010000000000000000003A /* TripFormField.swift */,
+				B0010000000000000000003B /* TripDateRangePicker.swift */,
+				B0010000000000000000003C /* TripCoverPickerPlaceholder.swift */,
+				9E25E197-32FC-4C12-8EC4-BDB06FF0E1C8 /* TripHeroMapView.swift */,
+				C885A5DE-A95D-42D3-B3AD-5E4F48B14635 /* TripHeroModeToggle.swift */,
+				78409E36-1B38-48C8-9AB2-65941615E1F6 /* TripHeroNodeCard.swift */,
+				C7029984-7DC6-4802-800D-0E955AFE3F6D /* TripNodeCarouselView.swift */,
+				E8A1B2C3D4E5F60718293A04 /* TripMapExploreSurface.swift */,
+				E8A1B2C3D4E5F60718293B01 /* TripMapExploreGeometry.swift */,
+				E8A1B2C3D4E5F60718293A01 /* TripMapDayTabRail.swift */,
+				B00100000000000000000062 /* TripCoverHeroView.swift */,
+				B0010000000000000000003F /* TripDetailHeader.swift */,
+				F7A100000000000000000002 /* TripMemberAvatarView.swift */,
+				B001000000000000000001B6 /* TripDayWorkspaceHeader.swift */,
+				E0E200000000000000000005 /* TripCreekContentSections.swift */,
+				E0E200000000000000000006 /* TripDayMapSection.swift */,
+				E0E200000000000000000007 /* TripHeroRouteLoader.swift */,
+				E0E200000000000000000011 /* TripDetailDemoBanner.swift */,
+				B001000000000000000000AA /* TripShareSheet.swift */,
+				B001000000000000000000AB /* TripItineraryExportSheet.swift */,
+				B00100000000000000000040 /* TripDetailTabBar.swift */,
+				B001000000000000000000E2 /* TripDayEmptyStateView.swift */,
+				B00100000000000000000210 /* TripWeatherCard.swift */,
+				B00100000000000000000211 /* TripDayCompactNavigator.swift */,
+				B00100000000000000000212 /* TripDayRail.swift */,
+				B00100000000000000000214 /* TripDetailFABChrome.swift */,
+				0222CF160C28BF27965E4EA9 /* TripOverviewPageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D00100000000000000000C0 /* ATAuthSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B00100000000000000000C0 /* ATAuthSDK.xcframework */,
+				B00100000000000000000C1 /* YTXMonitor.xcframework */,
+				B00100000000000000000C2 /* YTXOperators.xcframework */,
+			);
+			path = ATAuthSDK;
+			sourceTree = "<group>";
+		};
+		D0010000000000000000BR00 /* Brand */ = {
+			isa = PBXGroup;
+			children = (
+				B0010000000000000000BR01 /* BrandTokens.swift */,
+				B0010000000000000000BR02 /* BrandLogoView.swift */,
+				B0010000000000000000BR03 /* BrandWordmarkView.swift */,
+				B0010000000000000000BR09 /* BrandLockupView.swift */,
+				B0010000000000000000BR04 /* BrandSloganView.swift */,
+				B0010000000000000000BR05 /* BrandWatermarkView.swift */,
+				B0010000000000000000BR06 /* BrandAmbientGlow.swift */,
+				B0010000000000000000BR07 /* BrandUIKitHost.swift */,
+				B0010000000000000000BR08 /* BrandRenderChecks.swift */,
+				B0010000000000000000BR10 /* BrandPreviewSupport.swift */,
+			);
+			path = Brand;
+			sourceTree = "<group>";
+		};
+		D001SAVED00000000000001 /* SavedPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				B0010000000000000000E413A849 /* PlaceCategoryGlyph.swift */,
+				B001SAVED00000000000001 /* SavedPlaceModels.swift */,
+				B001SAVED00000000000002 /* SavedPlaceService.swift */,
+				B001SAVED00000000000003 /* SavedPlacesView.swift */,
+				B001SAVED00000000000011 /* SavedPlaceEditorView.swift */,
+				B001SAVED00000000000012 /* PlaceDetailView.swift */,
+				B001SAVED00000000000013 /* SavedPlacePickerView.swift */,
+				B001SAVED00000000000014 /* SavedPlacesPreviewSupport.swift */,
+				B001SAVED00000000000015 /* SavedPlaceTripCapability.swift */,
+				B001SAVED00000000000016 /* SavedPlaceAddToTripSheet.swift */,
+				B001SAVED00000000000017 /* SavedPlacesEntryCard.swift */,
+			);
+			path = SavedPlaces;
+			sourceTree = "<group>";
+		};
+		D0F1EXPL000000000000G001 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				B0F1EXPL000000000000S001 /* ExploreRootView.swift */,
+				B0F1EXPL000000000000S002 /* ExploreHomeViewModel.swift */,
+				B0F1EXPL000000000000S004 /* ExploreHomeView.swift */,
+				B0F1EXPL000000000000S003 /* ExploreCityCard.swift */,
+				B0F1EXPL000000000000S005 /* ExploreCityViewModel.swift */,
+				B0F1EXPL000000000000S006 /* ExploreCityView.swift */,
+				B0F1EXPL000000000000S007 /* ExplorePlaceRow.swift */,
+				B0F1EXPL000000000000S009 /* ExplorePlaceSheetViewModel.swift */,
+				B0F1EXPL000000000000S010 /* ExplorePlaceSheetView.swift */,
+				B0F1EXPL000000000000S008 /* ExplorePlaceEditorialContent.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		D001TST0000000000000001 /* TracciTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0D100000000000000000003 /* DependencyInjectionArchitectureTests.swift */,
+				B0C100000000000000000002 /* MainTabCoordinatorTests.swift */,
+				B0E100000000000000000003 /* MainSceneViewModelTests.swift */,
+				B0F100000000000000000006 /* StageDDependencyActionsTests.swift */,
+				B0DEMO00000000000000T1 /* DemoJourneyBundleDecodingTests.swift */,
+				B0DEMO00000000000000T2 /* DemoJourneyCloseoutTests.swift */,
+				B001TST0000000000000002 /* BrandTokensTests.swift */,
+				B001TST0000000000000003 /* BrandRenderChecksTests.swift */,
+				B001TST0000000000000007 /* LaunchScreenAndBrandComponentsTests.swift */,
+				B001V2T00000000000000001 /* UIFoundationTests.swift */,
+				B001TST0000000000000005 /* TracciNavigationStackTabBarPolicyTests.swift */,
+				B001TST0000000000000006 /* TripHeroMapRefreshTests.swift */,
+				DD14B86A35DCEBCBAD27416B /* CollaborationModelsTests.swift */,
+				DC14B86A35DCEBCBAD27416B /* TripEditPolicyTests.swift */,
+				DC14B86A35DCEBCBAD27416C /* TripEditViewModelTests.swift */,
+				B001SAVED00000000000004 /* SavedPlaceModelsTests.swift */,
+				B0F1TST000000000000000001 /* TripServiceHTTPStubTests.swift */,
+				B0F1TST000000000000000002 /* ServiceMappingHTTPStubTests.swift */,
+				B0F1TST000000000000000003 /* SavedPlacePickerViewModelTests.swift */,
+				B0F1TST00000000000000000A /* SavedPlaceAddToTripViewModelTests.swift */,
+				B0F1EXPL000000000000T001 /* PublishedPlacesContractTests.swift */,
+				B0F1EXPL000000000000T002 /* ExploreHomeViewModelTests.swift */,
+				B0F1EXPL000000000000T003 /* ExploreCityViewModelTests.swift */,
+				B0F1EXPL000000000000T004 /* ExplorePlaceSheetViewModelTests.swift */,
+				B0F1TST000000000000000004 /* TripDetailRouteStateTests.swift */,
+				B001TST000000000000000010 /* HTTPStubSmokeTests.swift */,
+				B001TST000000000000000011 /* CapabilityStubs.swift */,
+				B001TST000000000000000012 /* ItineraryFixtures.swift */,
+				2B9C8961810869C28BF4DB5E /* TripCreateViewModelTests.swift */,
+				B001TST000000000000000014 /* ItineraryViewModelMutationTests.swift */,
+				B001TST000000000000000005 /* TripRequestEncodingTests.swift */,
+				B001TST000000000000000006 /* ItineraryMutationRequestTests.swift */,
+				B001TST000000000000000007 /* ItineraryFormStateTests.swift */,
+				B4F400000000000000000007 /* ItineraryNodeEditViewModelTests.swift */,
+				B001TST000000000000000008 /* CategoryMappingCharacterizationTests.swift */,
+				B001TST000000000000000009 /* ItineraryServiceHTTPStubTests.swift */,
+			);
+			path = TracciTests;
+			sourceTree = "<group>";
+		};
+		D0C100000000000000000001 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B0C100000000000000000001 /* MainTabCoordinator.swift */,
+				E0E200000000000000000003 /* MainTabRouterView.swift */,
+				E0E200000000000000000004 /* MainTabChromeView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		D0D100000000000000000001 /* Composition */ = {
+			isa = PBXGroup;
+			children = (
+				B0D100000000000000000001 /* AppDependencies.swift */,
+				B0D100000000000000000002 /* LiveDependencies.swift */,
+				B0E100000000000000000001 /* MainSceneFactory.swift */,
+			);
+			path = Composition;
+			sourceTree = "<group>";
+		};
+		D0DEMO0000000000000001 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B0DEMO0000000000000001 /* JourneyContext.swift */,
+				B0DEMO0000000000000002 /* DemoJourneyModels.swift */,
+				B0DEMO0000000000000003 /* DemoJourneySchema.swift */,
+				B0DEMO0000000000000004 /* DemoJourneyService.swift */,
+				B0DEMO0000000000000030 /* DemoJourneyLoading.swift */,
+				B0DEMO0000000000000005 /* DemoJourneyCacheStore.swift */,
+				B0DEMO0000000000000006 /* DemoMutationGuard.swift */,
+				B0DEMO0000000000000040 /* DemoModeProviding.swift */,
+				B0DEMO0000000000000020 /* DemoReadOnlyCopy.swift */,
+				B0DEMO0000000000000050 /* DemoJourneyPreferences.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		D0E100000000000000000001 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B0E100000000000000000002 /* MainSceneViewModel.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		E0E300000000000000000001 /* CreateFlow */ = {
+			isa = PBXGroup;
+			children = (
+				E0E200000000000000000001 /* CreateOptionsOverlay.swift */,
+				E0E200000000000000000002 /* MainScenePresentationModifier.swift */,
+			);
+			path = CreateFlow;
+			sourceTree = "<group>";
+		};
+		F2377D8C888C4BDF9D485AB6 /* Collaboration */ = {
+			isa = PBXGroup;
+			children = (
+				1C67C482F3194F3289B2500B /* CollaborationModels.swift */,
+				3D5C14E5C7D8469584F6E2FB /* CollaborationService.swift */,
+				B70E8CBF84594AE092299192 /* CollaborationViewModel.swift */,
+				5D75CC1F7F1F49ADAE1C20B6 /* JoinTripView.swift */,
+				93F07931AC794E84B3E559E5 /* JoinTripViewModel.swift */,
+				2D5B66979469492382C42FDA /* CreateInvitationView.swift */,
+				292FD2B9D9464FCBA4370629 /* ActivityLogView.swift */,
+				6E60A4CCE8CA4778A471A809 /* ActivityLogViewModel.swift */,
+			);
+			path = Collaboration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00100000000000000000001 /* Tracci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00100000000000000000003 /* Build configuration list for PBXNativeTarget "Tracci" */;
+			buildPhases = (
+				C00100000000000000000002 /* Sources */,
+				C00100000000000000000001 /* Frameworks */,
+				C00100000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tracci;
+			packageProductDependencies = (
+				PKGPRODNETWORKING /* TracciNetworking */,
+			);
+			productName = Tracci;
+			productReference = B00100000000000000000026 /* Tracci.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E001TST0000000000000001 /* TracciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F001TST0000000000000003 /* Build configuration list for PBXNativeTarget "TracciTests" */;
+			buildPhases = (
+				C001TST0000000000000002 /* Sources */,
+				C001TST0000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				G001TST0000000000000001 /* PBXTargetDependency */,
+			);
+			name = TracciTests;
+			packageProductDependencies = (
+				PKGPRODNETWORKING /* TracciNetworking */,
+				PKGPRODTESTSUPPORT /* TracciTestSupport */,
+			);
+			productName = TracciTests;
+			productReference = B001TST0000000000000001 /* TracciTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00100000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					E00100000000000000000001 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					E001TST0000000000000001 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = E00100000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = F00100000000000000000002 /* Build configuration list for PBXProject "Tracci" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00100000000000000000001;
+			packageReferences = (
+				PKGREFNETWORKING /* XCLocalSwiftPackageReference "TracciNetworking" */,
+				PKGREFTESTSUPPORT /* XCLocalSwiftPackageReference "TracciTestSupport" */,
+			);
+			productRefGroup = D00100000000000000000017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00100000000000000000001 /* Tracci */,
+				E001TST0000000000000001 /* TracciTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00100000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00100000000000000000024 /* Assets.xcassets in Resources */,
+				A9F000000000000000000001 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00100000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5FE38356EE463A9A308223 /* CollaborationModels.swift in Sources */,
+				A0DEMO0000000000000001 /* JourneyContext.swift in Sources */,
+				A0DEMO0000000000000002 /* DemoJourneyModels.swift in Sources */,
+				A0DEMO0000000000000003 /* DemoJourneySchema.swift in Sources */,
+				A0DEMO0000000000000004 /* DemoJourneyService.swift in Sources */,
+				A0DEMO0000000000000030 /* DemoJourneyLoading.swift in Sources */,
+				A0DEMO0000000000000005 /* DemoJourneyCacheStore.swift in Sources */,
+				A0DEMO0000000000000006 /* DemoMutationGuard.swift in Sources */,
+				A0DEMO0000000000000040 /* DemoModeProviding.swift in Sources */,
+				A0DEMO0000000000000020 /* DemoReadOnlyCopy.swift in Sources */,
+				A0DEMO0000000000000050 /* DemoJourneyPreferences.swift in Sources */,
+				F0F469AD4843429C8D5C3ED9 /* CollaborationService.swift in Sources */,
+				CF402C485EF746D182C80DCB /* CollaborationViewModel.swift in Sources */,
+				A9AB4F87A3AF41C3847E730F /* JoinTripView.swift in Sources */,
+				A203F2F42EA6476CA03BB4F1 /* JoinTripViewModel.swift in Sources */,
+				8C270F62C80F42EF97BFC5CD /* CreateInvitationView.swift in Sources */,
+				85538052FB754CF3AB79E86B /* ActivityLogView.swift in Sources */,
+				44830B4D5B344FC6BFDF6F29 /* ActivityLogViewModel.swift in Sources */,
+				C73A7DE4070843538ED7E321 /* SettlementModels.swift in Sources */,
+				108ACAC5D7D741BA88EC2FCA /* SettlementView.swift in Sources */,
+				18C831716D8345928817E2BC /* SettlementViewModel.swift in Sources */,
+				A00100000000000000000001 /* TracciApp.swift in Sources */,
+				A0G100000000000000000001 /* TracciDateContext.swift in Sources */,
+				A0G100000000000000000002 /* TripDateStatus.swift in Sources */,
+				A00100000000000000000025 /* AppDelegate.swift in Sources */,
+				A00100000000000000000002 /* AppRootView.swift in Sources */,
+				A00100000000000000000003 /* MainTabView.swift in Sources */,
+				A0D100000000000000000001 /* AppDependencies.swift in Sources */,
+				A0D100000000000000000002 /* LiveDependencies.swift in Sources */,
+				A0E100000000000000000001 /* MainSceneFactory.swift in Sources */,
+				A0C100000000000000000001 /* MainTabCoordinator.swift in Sources */,
+				A0E100000000000000000002 /* MainSceneViewModel.swift in Sources */,
+				A001000000000000000001B5 /* GlobalCreateAction.swift in Sources */,
+				A001000000000000000001B7 /* GlobalNavigationBar.swift in Sources */,
+				A0010000000000000000000A /* AuthToken.swift in Sources */,
+				A0010000000000000000000B /* AuthService.swift in Sources */,
+				A0010000000000000000000C /* AuthSession.swift in Sources */,
+				A0010000000000000000000D /* TokenRefreshCoordinator.swift in Sources */,
+				A00100000000000000000026 /* WeChatLoginManager.swift in Sources */,
+				A00100000000000000000C3 /* PhoneAuthManager.swift in Sources */,
+				A0F100000000000000000001 /* PhoneAuthProviding.swift in Sources */,
+				A0010000000000000000000E /* KeychainTokenStore.swift in Sources */,
+				A0010000000000000000000F /* AppColors.swift in Sources */,
+				A001000000000000000001B4 /* AppAtmosphereBackground.swift in Sources */,
+				A00100000000000000000010 /* AppSpacing.swift in Sources */,
+				A001000000000000000001C0 /* AppNavigationMetrics.swift in Sources */,
+				A00100000000000000000011 /* AppRadius.swift in Sources */,
+				A00100000000000000000012 /* AppTypography.swift in Sources */,
+				A001000000000000000000E1 /* TripDetailLayout.swift in Sources */,
+				A001000000000000000000E2 /* TripDayEmptyStateView.swift in Sources */,
+				A00100000000000000000210 /* TripWeatherCard.swift in Sources */,
+				A00100000000000000000211 /* TripDayCompactNavigator.swift in Sources */,
+				A00100000000000000000212 /* TripDayRail.swift in Sources */,
+				A00100000000000000000214 /* TripDetailFABChrome.swift in Sources */,
+				A00100000000000000000215 /* ExpenseFormMode.swift in Sources */,
+				A00100000000000000000216 /* TripUnifiedCreekFeed.swift in Sources */,
+				69F55704-639C-4A12-96F8-11BA4C7B7FBA /* TripHeroMode.swift in Sources */,
+				F68CA710-F812-4814-961A-2778E51049A9 /* TripHeroMapData.swift in Sources */,
+				DB2A2B6B-A283-497C-992B-067386C47E31 /* TripHeroMapView.swift in Sources */,
+				7F0E55F6-09E5-4D03-A51D-5654EAFD3FBD /* TripNodeCarouselView.swift in Sources */,
+				E8A1B2C3D4E5F60718293A05 /* TripMapExploreSurface.swift in Sources */,
+				E8A1B2C3D4E5F60718293B02 /* TripMapExploreGeometry.swift in Sources */,
+				E8A1B2C3D4E5F60718293A02 /* TripMapDayTabRail.swift in Sources */,
+				0D8C75B1-22CC-4737-8157-A865300D50D7 /* TripHeroModeToggle.swift in Sources */,
+				52CF16B4-C4DF-4346-8700-5DDA365DDF91 /* TripHeroNodeCard.swift in Sources */,
+				A00100000000000000000013 /* AppButtons.swift in Sources */,
+				A001V2F00000000000000001 /* TracciEditorSheetScaffold.swift in Sources */,
+				A001V2F00000000000000002 /* TracciSelectionRow.swift in Sources */,
+				A001V2F00000000000000003 /* TracciSettingsRow.swift in Sources */,
+				A001V2F00000000000000004 /* TracciSettingsSection.swift in Sources */,
+				A001V2F00000000000000005 /* TracciTaskSheetScaffold.swift in Sources */,
+				A00100000000000000000C4 /* AppDestructiveButton.swift in Sources */,
+				A00100000000000000000014 /* AppCards.swift in Sources */,
+				A00100000000000000000C5 /* AppPageHeader.swift in Sources */,
+				A00100000000000000000092 /* AppMotion.swift in Sources */,
+				A00100000000000000000094 /* MemoryDesignTokens.swift in Sources */,
+				A00100000000000000000015 /* AppStateViews.swift in Sources */,
+				A00100000000000000000120 /* AppSkeleton.swift in Sources */,
+				A00100000000000000000130 /* AppProgressIndicator.swift in Sources */,
+				A0010000000000000000E413A849 /* PlaceCategoryGlyph.swift in Sources */,
+				A00100000000000000000103 /* StatsRadarDecoration.swift in Sources */,
+				A00100000000000000000104 /* ExpenseFormatters.swift in Sources */,
+				A0010000000000000000BR01 /* BrandTokens.swift in Sources */,
+				A0010000000000000000BR02 /* BrandLogoView.swift in Sources */,
+				A0010000000000000000BR03 /* BrandWordmarkView.swift in Sources */,
+				A0010000000000000000BR09 /* BrandLockupView.swift in Sources */,
+				A0010000000000000000BR04 /* BrandSloganView.swift in Sources */,
+				A0010000000000000000BR05 /* BrandWatermarkView.swift in Sources */,
+				A0010000000000000000BR06 /* BrandAmbientGlow.swift in Sources */,
+				A0010000000000000000BR07 /* BrandUIKitHost.swift in Sources */,
+				A0010000000000000000BR08 /* BrandRenderChecks.swift in Sources */,
+				A0010000000000000000BR10 /* BrandPreviewSupport.swift in Sources */,
+				A00100000000000000000050 /* AppShadow.swift in Sources */,
+				A00100000000000000000051 /* TracciBottomSheet.swift in Sources */,
+				A001000000000000000000B0 /* TracciDateRangePickerSheet.swift in Sources */,
+				A00100000000000000000C8 /* TracciPickerSupport.swift in Sources */,
+				A00100000000000000000C9 /* TracciDatePickerSheet.swift in Sources */,
+				5AE10CA5243C483A94326640 /* TracciGenderPickerSheet.swift in Sources */,
+				BD84250143AF422695596117 /* TracciBirthDatePickerSheet.swift in Sources */,
+				A00100000000000000000CA /* TracciTimePickerSheet.swift in Sources */,
+				A00100000000000000000CB /* TracciToast.swift in Sources */,
+				A00100000000000000000E2 /* TracciSwipeActions.swift in Sources */,
+				A00100000000000000000CC /* TracciActionSheet.swift in Sources */,
+				A00100000000000000000CD /* TracciFormControls.swift in Sources */,
+				A00100000000000000000C6 /* FormSection.swift in Sources */,
+				A00100000000000000000CE /* TracciSheetPresentation.swift in Sources */,
+				A00100000000000000000CF /* TracciFormField.swift in Sources */,
+				A001000000000000000000F8 /* TracciOTPCodeField.swift in Sources */,
+				A001000000000000000000F9 /* AccountBindChrome.swift in Sources */,
+				A00100000000000000000D1 /* TracciFormChrome.swift in Sources */,
+				A00100000000000000000C7 /* SectionHeader.swift in Sources */,
+				A00100000000000000000D7 /* TripCoverImageLoader.swift in Sources */,
+				A00100000000000000000064 /* ImagePickerProcessing.swift in Sources */,
+				A00100000000000000000065 /* LocationService.swift in Sources */,
+				A00100000000000000000D0 /* TracciPlaceSearchSheet.swift in Sources */,
+				A00100000000000000000063 /* SafeAreaMetrics.swift in Sources */,
+				A001000000000000000000B1 /* NavigationLifecycleReporter.swift in Sources */,
+				A001000000000000000000B2 /* TracciTabBarVisibility.swift in Sources */,
+				A001000000000000000001B3 /* TracciInteractivePopGesture.swift in Sources */,
+				A00100000000000000000018 /* AuthViewModel.swift in Sources */,
+				A00100000000000000000019 /* LoginView.swift in Sources */,
+				A0010000000000000000001A /* RegisterView.swift in Sources */,
+				A001000000000000000000B4 /* InAppSafariView.swift in Sources */,
+				A00100000000000000000B3 /* AuthLandingView.swift in Sources */,
+				A0010000000000000000001B /* HomeView.swift in Sources */,
+				A0F100000000000000000002 /* TripListActions.swift in Sources */,
+				A001000000000000000001A0 /* HomeNavigationRoute.swift in Sources */,
+				A0010000000000000000001C /* HomeViewModel.swift in Sources */,
+				A0DEMO0000000000000010 /* HomeDemoJourneyCard.swift in Sources */,
+				A0010000000000000000001D /* TripModels.swift in Sources */,
+				A0010000000000000000001E /* TripListItem.swift in Sources */,
+				A0010000000000000000001F /* TripService.swift in Sources */,
+				A0010000000000000000002F /* TripCreateView.swift in Sources */,
+				CFC583EB5D0F4A45F6B822C1 /* TripCreateViewModel.swift in Sources */,
+				7B32828816D01ADBD44F1129 /* TripCreateDestinationView.swift in Sources */,
+				A00100000000000000000030 /* TripEditView.swift in Sources */,
+				A00100000000000000000031 /* TripFormField.swift in Sources */,
+				A00100000000000000000032 /* TripDateRangePicker.swift in Sources */,
+				A00100000000000000000033 /* TripCoverPickerPlaceholder.swift in Sources */,
+				A00100000000000000000034 /* TripDetailView.swift in Sources */,
+				A0F100000000000000000003 /* TripPresentation.swift in Sources */,
+				0D837CC41D1643F89DE6CC01 /* TripEditViewModel.swift in Sources */,
+				3E0B464C169845F4A52CACC4 /* TripDestinationSelectionSheet.swift in Sources */,
+				5256D78607BC49569C5FCCAF /* TripDateEditorSheet.swift in Sources */,
+				A0F100000000000000000005 /* TripDetailFormRouter.swift in Sources */,
+				A00100000000000000000035 /* TripDetailViewModel.swift in Sources */,
+				A00100000000000000000036 /* TripDetailHeader.swift in Sources */,
+				F7A100000000000000000001 /* TripMemberAvatarView.swift in Sources */,
+				A001000000000000000001B6 /* TripDayWorkspaceHeader.swift in Sources */,
+				A001000000000000000000AA /* TripShareSheet.swift in Sources */,
+				A001000000000000000000AB /* TripItineraryExportSheet.swift in Sources */,
+				A00100000000000000000062 /* TripCoverHeroView.swift in Sources */,
+				A00100000000000000000037 /* TripDetailTabBar.swift in Sources */,
+				A00100000000000000000038 /* ItineraryModels.swift in Sources */,
+				A00100000000000000000039 /* ItineraryService.swift in Sources */,
+				A0010000000000000000003A /* ItineraryViewModel.swift in Sources */,
+				A0010000000000000000003B /* ItineraryTabView.swift in Sources */,
+				A0010000000000000000003C /* ItineraryNodeCard.swift in Sources */,
+				A4F400000000000000000001 /* ItineraryNodeCreateViewModel.swift in Sources */,
+				A4F400000000000000000002 /* ItineraryNodePlaceSearchView.swift in Sources */,
+				A4F400000000000000000003 /* ItineraryNodeCreateSheet.swift in Sources */,
+				A4F400000000000000000004 /* ItineraryNodeOptionalDetailsView.swift in Sources */,
+				A4F400000000000000000005 /* ItineraryNodeEditView.swift in Sources */,
+				A4F400000000000000000006 /* ItineraryNodeEditViewModel.swift in Sources */,
+				A00100000000000000000020 /* ProfileView.swift in Sources */,
+				A00100000000000000000021 /* ProfileViewModel.swift in Sources */,
+				A00100000000000000000097 /* ProfileModels.swift in Sources */,
+				A00100000000000000000098 /* ProfileService.swift in Sources */,
+				A00100000000000000000099 /* EditProfileView.swift in Sources */,
+				A0010000000000000000009A /* EditProfileViewModel.swift in Sources */,
+				A0010000000000000000009B /* AccountSecurityView.swift in Sources */,
+				A0010000000000000000009C /* AccountSecurityViewModel.swift in Sources */,
+				A001000000000000000000A8 /* ChangePasswordView.swift in Sources */,
+				A001000000000000000000A9 /* ChangePasswordViewModel.swift in Sources */,
+				A001000000000000000000B5 /* EmailBindView.swift in Sources */,
+				A001000000000000000000B6 /* EmailBindViewModel.swift in Sources */,
+				A001000000000000000000BA /* PhoneBindView.swift in Sources */,
+				A001000000000000000000BB /* PhoneBindViewModel.swift in Sources */,
+				A001000000000000000000BC /* PasswordResetView.swift in Sources */,
+				A001000000000000000000BD /* PasswordResetViewModel.swift in Sources */,
+				A001000000000000000000BE /* VerificationCodeTimer.swift in Sources */,
+				A001000000000000000000D5 /* AccountValidation.swift in Sources */,
+				A0010000000000000000009D /* HelpFeedbackView.swift in Sources */,
+				A0010000000000000000009E /* HelpFeedbackViewModel.swift in Sources */,
+				A0010000000000000000009F /* AboutTracciView.swift in Sources */,
+				A001000000000000000001E1 /* VersionInfoView.swift in Sources */,
+				A001000000000000000001E2 /* ContactUsView.swift in Sources */,
+				A001000000000000000001E0 /* AppUpdateChecker.swift in Sources */,
+				A00100000000000000000022 /* TripInsightWorkspaceSection.swift in Sources */,
+				A00100000000000000000023 /* MemoryView.swift in Sources */,
+				A001000000000000000000BF /* MemoryCompanionViews.swift in Sources */,
+				A001000000000000000000D1 /* MemoryTripListViews.swift in Sources */,
+				A001000000000000000000D2 /* MemoryYearlyReportViews.swift in Sources */,
+				A001000000000000000000D3 /* MemoryStartModal.swift in Sources */,
+				A001000000000000000000D4 /* MemoryStoryExperienceViews.swift in Sources */,
+				A00100000000000000000079 /* ExportModels.swift in Sources */,
+				A00100000000000000000080 /* ExportService.swift in Sources */,
+				A00100000000000000000081 /* ExportViewModel.swift in Sources */,
+				A00100000000000000000083 /* ExportTypeCard.swift in Sources */,
+				A00100000000000000000084 /* ExportOptionsCard.swift in Sources */,
+				A00100000000000000000085 /* ExportStatusCard.swift in Sources */,
+				A00100000000000000000086 /* ExportResultActionsView.swift in Sources */,
+				A00100000000000000000087 /* ExportShareHelper.swift in Sources */,
+				A00100000000000000000088 /* ExportFormatting.swift in Sources */,
+				A00100000000000000000089 /* ExportTemplateViews.swift in Sources */,
+				A00100000000000000000090 /* MemoryPageViewModel.swift in Sources */,
+				A00100000000000000000091 /* ExportTripPicker.swift in Sources */,
+				A00100000000000000000093 /* MemoryPosterTemplate.swift in Sources */,
+				A00100000000000000000095 /* MemoryStoryViewModel.swift in Sources */,
+				A00100000000000000000096 /* MemoryModels.swift in Sources */,
+				A001000000000000000000B7 /* MemoryDisplayCopy.swift in Sources */,
+				A00100000000000000000110 /* MemoryStoryNarrativeBuilder.swift in Sources */,
+				A001000000000000000000B8 /* MemoryStoryPagePlanner.swift in Sources */,
+				A001000000000000000000B9 /* MemoryPreviewFixtures.swift in Sources */,
+				A0010000000000000000003E /* JournalModels.swift in Sources */,
+				A0010000000000000000003F /* JournalService.swift in Sources */,
+				A00100000000000000000040 /* JournalViewModel.swift in Sources */,
+				A00100000000000000000042 /* JournalEntryCard.swift in Sources */,
+				A00100000000000000000043 /* JournalFormView.swift in Sources */,
+				A00100000000000000000044 /* JournalImagePicker.swift in Sources */,
+				A00100000000000000000066 /* JournalPhotoGrid.swift in Sources */,
+				A00100000000000000000067 /* POISearchSheet.swift in Sources */,
+				A00100000000000000000068 /* JournalMood.swift in Sources */,
+				A001000000000000000000D6 /* JournalPreviewFixtures.swift in Sources */,
+				A00100000000000000000045 /* ExpenseModels.swift in Sources */,
+				A00100000000000000000046 /* ExpenseService.swift in Sources */,
+				A00100000000000000000047 /* ExpenseViewModel.swift in Sources */,
+				A00100000000000000000049 /* ExpenseFormView.swift in Sources */,
+				E8A1B2C3D4E5F60708090A01 /* ExpenseItineraryLinkPickerSheet.swift in Sources */,
+				A0010000000000000000004A /* ExpenseSummaryCardView.swift in Sources */,
+				A0010000000000000000004B /* ExpenseCategoryChartView.swift in Sources */,
+				A0010000000000000000004C /* ExpenseListItemView.swift in Sources */,
+				A0010000000000000000004D /* ExpenseEmptyStateView.swift in Sources */,
+				A00100000000000000000069 /* StatsModels.swift in Sources */,
+				A001000000000000000000A1 /* StatsOverviewModels.swift in Sources */,
+				A001000000000000000000A2 /* StatsSpendAnalysisModels.swift in Sources */,
+				A001000000000000000000A3 /* StatsRecordsAnalysisModels.swift in Sources */,
+				A001000000000000000000A4 /* StatsFootprintAnalysisModels.swift in Sources */,
+				A00100000000000000000070 /* StatsService.swift in Sources */,
+				A00100000000000000000071 /* TripInsightViewModel.swift in Sources */,
+				91EEE23E2C93409B95D4674F /* StatsRhythmDots.swift in Sources */,
+				A2003CD408ABA83A437CB342 /* AllTripsViewModel.swift in Sources */,
+				A3008F768A77A3CE46DA950E /* AllTripsView.swift in Sources */,
+				C1007E6CED9083694D67AC6C /* TripMemberModels.swift in Sources */,
+				C1107E6CED9083694D67AC6D /* TripAccessUpdate.swift in Sources */,
+				C5005027833366B24049B413 /* TripMembersView.swift in Sources */,
+				F373DE5502B2EB68A32B579F /* CreekDecorations.swift in Sources */,
+				FDCA65F5D64EB2586AB1CACA /* RouteCacheService.swift in Sources */,
+				35E761EAC3C0CC987E694CA3 /* TripOverviewPageView.swift in Sources */,
+				57DC9FD6267F7908260F5EA6 /* TripEditPolicy.swift in Sources */,
+				A001SAVED00000000000001 /* SavedPlaceModels.swift in Sources */,
+				A001SAVED00000000000002 /* SavedPlaceService.swift in Sources */,
+				A001SAVED00000000000003 /* SavedPlacesView.swift in Sources */,
+				A001SAVED00000000000011 /* SavedPlaceEditorView.swift in Sources */,
+				A001SAVED00000000000012 /* PlaceDetailView.swift in Sources */,
+				A001SAVED00000000000013 /* SavedPlacePickerView.swift in Sources */,
+				A001SAVED00000000000014 /* SavedPlacesPreviewSupport.swift in Sources */,
+				A001SAVED00000000000015 /* SavedPlaceTripCapability.swift in Sources */,
+				A001SAVED00000000000016 /* SavedPlaceAddToTripSheet.swift in Sources */,
+				A001SAVED00000000000017 /* SavedPlacesEntryCard.swift in Sources */,
+				A0F1EXPL000000000000S001 /* ExploreRootView.swift in Sources */,
+				A0F1EXPL000000000000S002 /* ExploreHomeViewModel.swift in Sources */,
+				A0F1EXPL000000000000S003 /* ExploreCityCard.swift in Sources */,
+				A0F1EXPL000000000000S004 /* ExploreHomeView.swift in Sources */,
+				A0F1EXPL000000000000S005 /* ExploreCityViewModel.swift in Sources */,
+				A0F1EXPL000000000000S006 /* ExploreCityView.swift in Sources */,
+				A0F1EXPL000000000000S007 /* ExplorePlaceRow.swift in Sources */,
+				A0F1EXPL000000000000S009 /* ExplorePlaceSheetViewModel.swift in Sources */,
+				A0F1EXPL000000000000S010 /* ExplorePlaceSheetView.swift in Sources */,
+				A0F1EXPL000000000000S008 /* ExplorePlaceEditorialContent.swift in Sources */,
+				E0E100000000000000000001 /* CreateOptionsOverlay.swift in Sources */,
+				E0E100000000000000000002 /* MainScenePresentationModifier.swift in Sources */,
+				E0E100000000000000000003 /* MainTabRouterView.swift in Sources */,
+				E0E100000000000000000004 /* MainTabChromeView.swift in Sources */,
+				E0E100000000000000000005 /* TripCreekContentSections.swift in Sources */,
+				E0E100000000000000000006 /* TripDayMapSection.swift in Sources */,
+				E0E100000000000000000007 /* TripHeroRouteLoader.swift in Sources */,
+				E0E100000000000000000008 /* TripDetailSceneFactory.swift in Sources */,
+				E0E100000000000000000009 /* TripWeatherModels.swift in Sources */,
+				E0E10000000000000000000A /* TripListSorting.swift in Sources */,
+				E0E10000000000000000000B /* ItineraryMutationModels.swift in Sources */,
+				E0E10000000000000000000C /* ItineraryFormModels.swift in Sources */,
+				E0E10000000000000000000F /* ItineraryExportModels.swift in Sources */,
+				E0E100000000000000000010 /* TripSummaryModels.swift in Sources */,
+				E0E100000000000000000011 /* TripDetailDemoBanner.swift in Sources */,
+				C699639EF672995C8F3F6292 /* ExpenseCategoryAddSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C001TST0000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D100000000000000000003 /* DependencyInjectionArchitectureTests.swift in Sources */,
+				A0C100000000000000000002 /* MainTabCoordinatorTests.swift in Sources */,
+				A0E100000000000000000003 /* MainSceneViewModelTests.swift in Sources */,
+				A0F100000000000000000006 /* StageDDependencyActionsTests.swift in Sources */,
+				A001TST0000000000000001 /* BrandTokensTests.swift in Sources */,
+				A001TST0000000000000002 /* BrandRenderChecksTests.swift in Sources */,
+				A001V2T00000000000000001 /* UIFoundationTests.swift in Sources */,
+				A001TST0000000000000007 /* LaunchScreenAndBrandComponentsTests.swift in Sources */,
+				A001TST0000000000000004 /* TracciNavigationStackTabBarPolicyTests.swift in Sources */,
+				A001TST0000000000000005 /* TripHeroMapRefreshTests.swift in Sources */,
+				10F2C0086F6675F9F3CE59F9D /* CollaborationModelsTests.swift in Sources */,
+				A0DEMO00000000000000T1 /* DemoJourneyBundleDecodingTests.swift in Sources */,
+				A0DEMO00000000000000T2 /* DemoJourneyCloseoutTests.swift in Sources */,
+				0F2C0086F6675F9F3CE59F9D /* TripEditPolicyTests.swift in Sources */,
+				0F2C0086F6675F9F3CE59F9E /* TripEditViewModelTests.swift in Sources */,
+				A001SAVED00000000000004 /* SavedPlaceModelsTests.swift in Sources */,
+				A0F1TST000000000000000001 /* TripServiceHTTPStubTests.swift in Sources */,
+				A0F1TST000000000000000002 /* ServiceMappingHTTPStubTests.swift in Sources */,
+				A0F1TST000000000000000003 /* SavedPlacePickerViewModelTests.swift in Sources */,
+				A0F1TST00000000000000000A /* SavedPlaceAddToTripViewModelTests.swift in Sources */,
+				A0F1EXPL000000000000T001 /* PublishedPlacesContractTests.swift in Sources */,
+				A0F1EXPL000000000000T002 /* ExploreHomeViewModelTests.swift in Sources */,
+				A0F1EXPL000000000000T003 /* ExploreCityViewModelTests.swift in Sources */,
+				A0F1EXPL000000000000T004 /* ExplorePlaceSheetViewModelTests.swift in Sources */,
+				A0F1TST000000000000000004 /* TripDetailRouteStateTests.swift in Sources */,
+				A001TST000000000000000010 /* HTTPStubSmokeTests.swift in Sources */,
+				A001TST000000000000000011 /* CapabilityStubs.swift in Sources */,
+				A001TST000000000000000012 /* ItineraryFixtures.swift in Sources */,
+				63C54828334DD2EABF0D6FF1 /* TripCreateViewModelTests.swift in Sources */,
+				A001TST000000000000000014 /* ItineraryViewModelMutationTests.swift in Sources */,
+				A001TST000000000000000005 /* TripRequestEncodingTests.swift in Sources */,
+				A001TST000000000000000006 /* ItineraryMutationRequestTests.swift in Sources */,
+				A001TST000000000000000007 /* ItineraryFormStateTests.swift in Sources */,
+				A4F400000000000000000007 /* ItineraryNodeEditViewModelTests.swift in Sources */,
+				A001TST000000000000000008 /* CategoryMappingCharacterizationTests.swift in Sources */,
+				A001TST000000000000000009 /* ItineraryServiceHTTPStubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		G001TST0000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00100000000000000000001 /* Tracci */;
+			targetProxy = G001TST0000000000000002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F00100000000000000000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F00100000000000000000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00100000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALIYUN_PNVS_AUTH_INFO = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27D3G2LD8S;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tracci.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG TRACCI_ENABLE_WEATHERKIT";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F00100000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALIYUN_PNVS_AUTH_INFO = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Resources/Tracci.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27D3G2LD8S;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tracci.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) TRACCI_ENABLE_WEATHERKIT";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F001TST0000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27D3G2LD8S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tracci.ios.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tracci.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tracci";
+			};
+			name = Debug;
+		};
+		F001TST0000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27D3G2LD8S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tracci.ios.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tracci.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tracci";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00100000000000000000002 /* Build configuration list for PBXProject "Tracci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00100000000000000000004 /* Debug */,
+				F00100000000000000000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00100000000000000000003 /* Build configuration list for PBXNativeTarget "Tracci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00100000000000000000006 /* Debug */,
+				F00100000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F001TST0000000000000003 /* Build configuration list for PBXNativeTarget "TracciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F001TST0000000000000001 /* Debug */,
+				F001TST0000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		PKGREFNETWORKING /* XCLocalSwiftPackageReference "TracciNetworking" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/TracciNetworking;
+		};
+		PKGREFTESTSUPPORT /* XCLocalSwiftPackageReference "TracciTestSupport" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/TracciTestSupport;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		PKGPRODNETWORKING /* TracciNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PKGREFNETWORKING /* XCLocalSwiftPackageReference "TracciNetworking" */;
+			productName = TracciNetworking;
+		};
+		PKGPRODTESTSUPPORT /* TracciTestSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PKGREFTESTSUPPORT /* XCLocalSwiftPackageReference "TracciTestSupport" */;
+			productName = TracciTestSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E00100000000000000000002 /* Project object */;
+}
