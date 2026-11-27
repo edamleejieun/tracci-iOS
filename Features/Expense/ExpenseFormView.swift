@@ -652,7 +652,7 @@ struct ExpenseFormView: View {
                     .frame(height: 26)
                 Text("添加")
                     .font(AppTypography.label)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
                     .lineLimit(1)
             }
             .frame(maxWidth: .infinity)

@@ -190,7 +190,7 @@ struct TripMembersView: View {
                             .font(AppTypography.captionMedium)
                         Spacer(minLength: 0)
                     }
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
                     .padding(.horizontal, AppSpacing.cardSmall)
                     .padding(.vertical, AppSpacing.sm)
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -271,7 +271,7 @@ struct TripMembersView: View {
             .foregroundStyle(.white)
             .frame(maxWidth: .infinity)
             .padding(.vertical, AppSpacing.cardSmall)
-            .background(AppColors.brandPrimary)
+            .background(AppColors.brandPrimaryStrong)
             .clipShape(RoundedRectangle(cornerRadius: AppRadius.large, style: .continuous))
         }
         .padding(.horizontal, AppSpacing.pageX)
@@ -344,7 +344,7 @@ private struct MemberCard: View {
                             if isCurrentUser {
                                 Text("我")
                                     .font(AppTypography.microSemibold)
-                                    .foregroundStyle(AppColors.brandPrimary)
+                                    .foregroundStyle(AppColors.interactiveText)
                                     .padding(.horizontal, AppSpacing.xs)
                                     .padding(.vertical, 2)
                                     .background(AppColors.brandPrimary.opacity(0.1))
@@ -486,7 +486,7 @@ private struct MemberCard: View {
                 Image(systemName: "chevron.up.chevron.down")
                     .font(AppTypography.microSemibold)
             }
-            .foregroundStyle(AppColors.brandPrimary)
+            .foregroundStyle(AppColors.interactiveText)
             .padding(.horizontal, AppSpacing.sm)
             .padding(.vertical, AppSpacing.xs)
             .background(AppColors.brandPrimary.opacity(0.08))

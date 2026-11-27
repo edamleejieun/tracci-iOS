@@ -1175,6 +1175,8 @@ struct TripDetailView: View {
             .frame(minWidth: 44, minHeight: 44)
             .contentShape(Circle())
             .pressableCardStyle(scale: 0.94, opacity: 0.9)
+            .accessibilityLabel("返回")
+            .accessibilityHint("返回旅程列表")
 
             Text(viewModel.trip.title)
                 .font(TripDetailTypography.chromeTitle)
@@ -2171,7 +2173,7 @@ struct TripDetailView: View {
                     Task { await viewModel.loadTripDetail() }
                 }
                 .font(TripDetailTypography.bodyMedium)
-                .foregroundStyle(AppColors.brandPrimary)
+                .foregroundStyle(AppColors.interactiveText)
             }
         }
     }

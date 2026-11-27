@@ -119,7 +119,7 @@ struct SavedPlacePickerChip: View {
                         .font(AppTypography.captionSemibold)
                 }
             }
-            .foregroundStyle(AppColors.brandPrimary)
+            .foregroundStyle(AppColors.interactiveText)
             .padding(.horizontal, 14)
             .padding(.vertical, 10)
             .frame(minHeight: 44)

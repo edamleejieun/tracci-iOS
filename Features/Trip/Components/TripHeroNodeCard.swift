@@ -41,7 +41,7 @@ struct TripHeroNodeCard: View {
                     Text("导航")
                         .font(.caption2.weight(.medium))
                 }
-                .foregroundStyle(AppColors.brandPrimary)
+                .foregroundStyle(AppColors.interactiveText)
                 .padding(.horizontal, 10)
                 .padding(.vertical, 6)
                 .background {

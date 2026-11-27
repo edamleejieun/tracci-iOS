@@ -141,7 +141,7 @@ struct TripItineraryExportSheet: View {
                     .foregroundStyle(.white)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, AppSpacing.md)
-                    .background(AppColors.brandPrimary)
+                    .background(AppColors.brandPrimaryStrong)
                     .clipShape(RoundedRectangle(cornerRadius: AppRadius.large, style: .continuous))
             }
             .buttonStyle(PressableCardStyle(scale: 0.98, opacity: 0.95))

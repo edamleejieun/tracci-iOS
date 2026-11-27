@@ -28,7 +28,7 @@ struct MemoryEmptyHeroCard: View {
                         .frame(width: 6, height: 6)
                     Text("从第一段旅程开始")
                         .font(AppTypography.eyebrow)
-                        .foregroundStyle(AppColors.brandPrimary)
+                        .foregroundStyle(AppColors.interactiveText)
                 }
 
                 Text("有了第一段旅程，\n这里就能开始回看")
@@ -284,7 +284,7 @@ struct MemoryPlanningFocusCard: View {
                     HStack(spacing: AppSpacing.tight) {
                         Text(departureText)
                             .font(AppTypography.captionMedium)
-                            .foregroundStyle(AppColors.brandPrimary)
+                            .foregroundStyle(AppColors.interactiveText)
                         Text("·")
                             .foregroundStyle(AppColors.textPlaceholder.opacity(0.35))
                         Text(dateRange)
@@ -357,7 +357,7 @@ struct MemoryOngoingStatusStrip: View {
                 HStack(spacing: AppSpacing.tight) {
                     Text("还在路上")
                         .font(AppTypography.chipSemibold)
-                        .foregroundStyle(AppColors.brandPrimary)
+                        .foregroundStyle(AppColors.interactiveText)
                     Text("·")
                         .foregroundStyle(AppColors.textPlaceholder.opacity(0.35))
                     Text(dayText)

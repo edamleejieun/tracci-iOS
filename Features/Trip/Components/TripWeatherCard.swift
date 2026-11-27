@@ -44,7 +44,7 @@ struct TripWeatherCard: View {
                         Text("刷新")
                             .font(AppTypography.chipSemibold)
                     }
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
                 }
                 .buttonStyle(.plain)
             }

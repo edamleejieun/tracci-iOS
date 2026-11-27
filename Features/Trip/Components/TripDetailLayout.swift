@@ -142,7 +142,7 @@ enum TripDetailLayout {
     /// below pinned chrome and above the FAB. Content itself is top-aligned; do not
     /// vertically center, or shorter completed / journal cards will sit lower.
     static func emptyStateMinHeight(topSafeInset: CGFloat, bottomSafeInset: CGFloat) -> CGFloat {
-        let screenHeight = UIScreen.main.bounds.height
+        let screenHeight = SafeAreaMetrics.windowHeight
         let fabClearance = fabSize + 32 + bottomSafeInset
         let topChrome = emptyStatePinnedTopClearance(topSafeInset: topSafeInset) + controlBandHeight
         let available = screenHeight - topChrome - fabClearance

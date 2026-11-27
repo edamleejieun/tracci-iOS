@@ -651,7 +651,7 @@ struct HomeView: View {
                 } label: {
                     Text("取消")
                         .font(AppTypography.listTitleMedium)
-                        .foregroundStyle(AppColors.brandPrimary)
+                        .foregroundStyle(AppColors.interactiveText)
                 }
             }
             .padding(.horizontal, AppSpacing.pageX)
@@ -1270,7 +1270,7 @@ private struct HomeEmptyCreateHint: View {
             Text("点右下角 + 创建第一段旅程")
                 .font(AppTypography.caption)
         }
-        .foregroundStyle(AppColors.brandPrimary)
+        .foregroundStyle(AppColors.interactiveText)
         .frame(maxWidth: .infinity)
         .accessibilityHidden(true)
     }

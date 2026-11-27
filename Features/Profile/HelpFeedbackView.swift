@@ -81,7 +81,7 @@ struct HelpFeedbackView: View {
                     Task { await viewModel.loadOptions() }
                 }
                 .font(AppTypography.label)
-                .foregroundStyle(AppColors.brandPrimary)
+                .foregroundStyle(AppColors.interactiveText)
             }
             .padding(AppSpacing.cozy)
             .background(AppColors.warning.opacity(0.10))
@@ -274,7 +274,7 @@ struct HelpFeedbackView: View {
             } label: {
                 Text("继续反馈")
                     .font(AppTypography.cardBody)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
             }
         }
         .frame(maxWidth: .infinity)

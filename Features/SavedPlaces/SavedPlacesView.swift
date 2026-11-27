@@ -323,7 +323,7 @@ struct SavedPlacesView: View {
                     Task { await model.loadMoreIfNeeded(after: lastItem) }
                 }
                 .font(AppTypography.captionSemibold)
-                .foregroundStyle(AppColors.brandPrimary)
+                .foregroundStyle(AppColors.interactiveText)
                 .accessibilityHint(loadMoreErrorMessage)
             }
         }
@@ -512,7 +512,7 @@ struct SavedPlaceUsageChip: View {
             Text("已加入 \(count) 趟旅程")
                 .font(AppTypography.chipSemibold)
         }
-        .foregroundStyle(AppColors.brandPrimary)
+        .foregroundStyle(AppColors.interactiveText)
         .padding(.horizontal, 10)
         .padding(.vertical, 4)
         .frame(minHeight: 24)

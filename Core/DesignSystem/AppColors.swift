@@ -10,6 +10,10 @@ enum AppColors {
     /// 承载白色正文的品牌蓝面（用户消息气泡）。`brandPrimary` 上白字仅 ~3.7:1，
     /// 深一档（~#2563EB）对白字 ~5.2:1，满足正文 4.5:1。
     static let brandPrimaryStrong = Color(hex: 0x2563EB)
+    /// 白底上的小字号交互文本（链接、文字按钮、取消/保存）。`brandPrimary` 对白底仅 3.68:1，
+    /// 不足正文 4.5:1；此令牌与 `brandPrimaryStrong` 同值（#2563EB，5.17:1），专供文本角色。
+    /// 填充 / 选中态 / 图标点缀仍用 `brandPrimary`（非文本对比度 3:1 即可）。
+    static let interactiveText = brandPrimaryStrong
     static let brandWarm = Color(hex: 0xF0A06A)
     /// Legacy name. Do not use as a page/card canvas; maps to brand soft blue.
     static let brandWarmBackground = brandPrimaryBackground
@@ -97,7 +101,9 @@ enum AppColors {
 
     static let textPrimary = Color(hex: 0x2F2A25)
     static let textSecondary = Color(hex: 0x5C5650)
-    static let textMuted = Color(hex: 0x7A746B)
+    /// 次要 / 元信息文本。#6B655C 在分组画布(#F2F2F7)上 5.17:1、卡白上 5.77:1，
+    /// 两种表面均满足正文 4.5:1（旧值 #7A746B 在分组画布上仅 4.15:1）。
+    static let textMuted = Color(hex: 0x6B655C)
     static let textPlaceholder = Color(hex: 0x9B958C)
     static let textDisabled = Color(hex: 0xC4BEB5)
 

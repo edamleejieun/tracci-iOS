@@ -353,7 +353,7 @@ struct ExploreCityView: View {
             } label: {
                 Text("重试")
                     .font(AppTypography.labelSemibold)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
             }
             .buttonStyle(TracciPressableButtonStyle(scales: false))
             .frame(minWidth: 44, minHeight: 44)

@@ -279,13 +279,13 @@ enum AppTypography {
         AppFont.scaled(size: 11, weight: .semibold, relativeTo: .caption2)
     }
 
-    /// Micro badges / timeline markers (~10pt).
+    /// Micro badges / timeline markers (~11pt — iOS 可读下限，勿低于 11pt).
     static var micro: Font {
-        AppFont.scaled(size: 10, weight: .medium, relativeTo: .caption2)
+        AppFont.scaled(size: 11, weight: .medium, relativeTo: .caption2)
     }
 
     static var microSemibold: Font {
-        AppFont.scaled(size: 10, weight: .semibold, relativeTo: .caption2)
+        AppFont.scaled(size: 11, weight: .semibold, relativeTo: .caption2)
     }
 
     /// Single-line form field value / text editor body (default ~15pt).
@@ -316,9 +316,9 @@ enum AppTypography {
         AppFont.scaled(size: 11, weight: .regular, relativeTo: .caption2)
     }
 
-    /// Micro regular (~10pt).
+    /// Micro regular (~11pt — iOS 可读下限).
     static var microRegular: Font {
-        AppFont.scaled(size: 10, weight: .regular, relativeTo: .caption2)
+        AppFont.scaled(size: 11, weight: .regular, relativeTo: .caption2)
     }
 
     /// Form / callout semibold alias (same as buttonTitle).

@@ -123,7 +123,7 @@ struct EmptyStateView: View {
                         .padding(.horizontal, 22)
                         .frame(minHeight: 46)
                         .background(
-                            TracciCTABackground(base: AppColors.brandPrimary, strokeRadius: AppRadius.button)
+                            TracciCTABackground(base: AppColors.brandPrimaryStrong, strokeRadius: AppRadius.button)
                         )
                         .clipShape(RoundedRectangle(cornerRadius: AppRadius.button, style: .continuous))
                         .tracciElevation(.l2)
@@ -231,7 +231,7 @@ struct ErrorStateView: View {
                         .background(
                             // 与 Capsule 裁剪共用同一形状:大 Dynamic Type 下按钮
                             // 变高时,固定圆角的描边会与胶囊弧度错位。
-                            TracciCTABackground(base: AppColors.brandPrimary, strokeShape: Capsule())
+                            TracciCTABackground(base: AppColors.brandPrimaryStrong, strokeShape: Capsule())
                         )
                         .clipShape(Capsule())
                 }

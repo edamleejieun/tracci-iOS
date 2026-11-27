@@ -544,7 +544,7 @@ struct MemoryView: View {
             Image(systemName: systemImage)
         }
         .font(AppTypography.buttonTitle)
-        .foregroundStyle(AppColors.brandPrimary)
+        .foregroundStyle(AppColors.interactiveText)
         .padding(.horizontal, AppSpacing.card)
         .frame(height: 52)
         .background(

@@ -379,7 +379,7 @@ struct TripCreateDestinationSearchView: View {
                     model.performSearch()
                 }
                 .font(AppTypography.labelSemibold)
-                .foregroundStyle(AppColors.brandPrimary)
+                .foregroundStyle(AppColors.interactiveText)
             }
             .frame(maxWidth: .infinity)
         }

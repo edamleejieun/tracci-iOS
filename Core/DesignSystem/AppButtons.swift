@@ -139,7 +139,8 @@ struct PrimaryButton: View {
         if state == .disabled {
             AppColors.subtleBackground
         } else {
-            TracciCTABackground(base: AppColors.brandPrimary, strokeRadius: AppRadius.button)
+            // 白字 CTA 用深一档品牌蓝（#2563EB，白字 5.17:1）；brandPrimary 白字仅 3.68:1。
+            TracciCTABackground(base: AppColors.brandPrimaryStrong, strokeRadius: AppRadius.button)
         }
     }
 
@@ -194,7 +195,7 @@ struct SecondaryTextButton: View {
         Button(action: action) {
             Text(title)
                 .font(AppTypography.buttonTitleSecondary)
-                .foregroundStyle(AppColors.brandPrimary)
+                .foregroundStyle(AppColors.interactiveText)
         }
         .buttonStyle(TracciPressableButtonStyle(scales: false))
     }
@@ -233,7 +234,7 @@ struct OutlinedButton: View {
                     .font(compact ? AppTypography.label : AppTypography.buttonTitle)
                     .multilineTextAlignment(.center)
             }
-            .foregroundStyle(AppColors.brandPrimary.opacity(0.82))
+            .foregroundStyle(AppColors.interactiveText)
             .padding(.horizontal, compact ? 10 : 12)
             .padding(.vertical, compact ? 10 : 14)
             .frame(maxWidth: .infinity)
@@ -459,7 +460,7 @@ struct FormSheetTopBar: View {
                 HStack(alignment: .center, spacing: AppSpacing.sm) {
                     topBarActionButton(
                         title: cancelTitle,
-                        foreground: isCancelEnabled ? AppColors.brandPrimary : AppColors.textDisabled,
+                        foreground: isCancelEnabled ? AppColors.interactiveText : AppColors.textDisabled,
                         alignment: .leading,
                         action: onCancel
                     )
@@ -551,7 +552,7 @@ struct FormSheetTopBar: View {
 
     private var saveButtonForeground: Color {
         if showSaveSuccess { return AppColors.success }
-        return isSaveEnabled ? AppColors.brandPrimary : AppColors.textDisabled
+        return isSaveEnabled ? AppColors.interactiveText : AppColors.textDisabled
     }
 }
 

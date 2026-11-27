@@ -31,7 +31,7 @@ struct ExportStatusCard: View {
                         if phase == .failed {
                             Button("重试", action: onRetry)
                                 .font(AppTypography.labelSemibold)
-                                .foregroundStyle(AppColors.brandPrimary)
+                                .foregroundStyle(AppColors.interactiveText)
                                 .padding(.top, AppSpacing.xxs)
                         }
                     }

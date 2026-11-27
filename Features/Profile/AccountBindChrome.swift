@@ -174,7 +174,7 @@ struct AccountBindResendRow: View {
                 Button(action: onResend) {
                     Text(isSending ? "发送中…" : "重新发送验证码")
                         .font(AppTypography.label)
-                        .foregroundStyle(AppColors.brandPrimary)
+                        .foregroundStyle(AppColors.interactiveText)
                         .frame(minHeight: 44)
                 }
                 .buttonStyle(.plain)

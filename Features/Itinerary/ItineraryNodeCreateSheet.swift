@@ -216,7 +216,7 @@ struct ItineraryNodeCreateSheet: View {
                 Task { await viewModel.loadMatchingSavedPlaces() }
             }
             .font(AppTypography.labelSemibold)
-            .foregroundStyle(AppColors.brandPrimary)
+            .foregroundStyle(AppColors.interactiveText)
             .frame(minHeight: 44)
         }
         .padding(AppSpacing.md)

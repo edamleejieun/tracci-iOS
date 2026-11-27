@@ -665,7 +665,7 @@ struct TripInsightWorkspaceSection: View {
                 Image(systemName: action.systemImage)
                     .font(AppTypography.captionSemibold)
             }
-            .foregroundStyle(AppColors.brandPrimary)
+            .foregroundStyle(AppColors.interactiveText)
             .padding(.horizontal, AppSpacing.card)
             .frame(maxWidth: .infinity, minHeight: AppControlMetrics.minimumTapTarget)
             .background(
@@ -782,7 +782,7 @@ struct TripInsightWorkspaceSection: View {
         }
         .buttonStyle(.borderedProminent)
         .controlSize(.small)
-        .tint(AppColors.brandPrimary)
+        .tint(AppColors.brandPrimaryStrong)
         // Visual is compact; keep ≥44pt hit via padding so taps stay comfortable.
         .padding(.vertical, 6)
         .contentShape(Rectangle())
@@ -800,7 +800,7 @@ struct TripInsightWorkspaceSection: View {
         }
         .buttonStyle(.bordered)
         .controlSize(.small)
-        .tint(AppColors.brandPrimary)
+        .tint(AppColors.interactiveText)
         .padding(.vertical, 6)
         .contentShape(Rectangle())
         .accessibilityLabel("记一笔")

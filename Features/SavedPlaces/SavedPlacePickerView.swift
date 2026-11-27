@@ -243,7 +243,7 @@ private struct SavedPlacePickerList: View {
                             Task { await model.loadMoreIfNeeded(after: lastItem) }
                         }
                         .font(AppTypography.captionSemibold)
-                        .foregroundStyle(AppColors.brandPrimary)
+                        .foregroundStyle(AppColors.interactiveText)
                         .accessibilityHint(errorMessage)
                     }
                 }

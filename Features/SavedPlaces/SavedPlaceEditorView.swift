@@ -338,7 +338,7 @@ struct SavedPlaceEditorView: View {
                                 .foregroundStyle(AppColors.textMuted)
                             Button("重新搜索") { model.performPlaceSearch() }
                                 .font(AppTypography.captionSemibold)
-                                .foregroundStyle(AppColors.brandPrimary)
+                                .foregroundStyle(AppColors.interactiveText)
                         }
                         .padding(AppSpacing.cardSmall)
                     } else if !model.placeSearchResults.isEmpty {

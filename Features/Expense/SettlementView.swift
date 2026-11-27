@@ -126,7 +126,7 @@ struct SettlementView: View {
                 .font(AppTypography.captionMedium)
             Spacer(minLength: 0)
         }
-        .foregroundStyle(AppColors.brandPrimary)
+        .foregroundStyle(AppColors.interactiveText)
         .padding(.horizontal, AppSpacing.cardSmall)
         .padding(.vertical, AppSpacing.sm)
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -270,7 +270,7 @@ struct SettlementView: View {
                         if isMe {
                             Text("我")
                                 .font(AppTypography.microSemibold)
-                                .foregroundStyle(AppColors.brandPrimary)
+                                .foregroundStyle(AppColors.interactiveText)
                                 .padding(.horizontal, AppSpacing.xs)
                                 .padding(.vertical, 2)
                                 .background(AppColors.brandPrimary.opacity(0.1))

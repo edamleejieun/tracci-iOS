@@ -159,7 +159,7 @@ struct VersionInfoView: View {
                 Spacer(minLength: 0)
                 Text("打开商店")
                     .font(AppTypography.caption)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
             }
             .padding(.horizontal, AppSpacing.card)
             .padding(.vertical, AppSpacing.md)

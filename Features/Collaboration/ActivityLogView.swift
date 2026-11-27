@@ -301,7 +301,7 @@ private struct ActivityLogRow: View {
                     .foregroundStyle(AppColors.textPlaceholder)
                 Text(newValue)
                     .font(AppTypography.captionMedium)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
             }
             .lineLimit(2)
         case let .message(message):

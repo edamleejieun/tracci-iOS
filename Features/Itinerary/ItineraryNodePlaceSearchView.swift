@@ -164,7 +164,7 @@ struct ItineraryNodePlaceSearchView: View {
                         .multilineTextAlignment(.center)
                     Button("重新搜索") { model.performSearch() }
                         .font(AppTypography.labelSemibold)
-                        .foregroundStyle(AppColors.brandPrimary)
+                        .foregroundStyle(AppColors.interactiveText)
                 }
                 .frame(maxWidth: .infinity)
             }
@@ -247,7 +247,7 @@ struct ItineraryNodePlaceSearchView: View {
                     .foregroundStyle(AppColors.textMuted)
                 Button("重试", action: onRetrySavedPlaces)
                     .font(AppTypography.captionSemibold)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
                     .accessibilityHint(savedPlacesErrorMessage)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
@@ -294,7 +294,7 @@ struct ItineraryNodePlaceSearchView: View {
             HStack {
                 Text("查看全部 \(savedPlacesTotalCount) 个")
                     .font(AppTypography.labelSemibold)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
                 Spacer()
                 Image(systemName: "chevron.right")
                     .font(AppTypography.captionSemibold)

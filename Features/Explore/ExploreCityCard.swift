@@ -224,7 +224,7 @@ struct ExploreLoadMoreFooter: View {
                 Text("加载更多")
                     .font(AppTypography.bodyMedium)
             }
-            .foregroundStyle(AppColors.brandPrimary)
+            .foregroundStyle(AppColors.interactiveText)
             .padding(.horizontal, AppSpacing.lg)
             .frame(minWidth: 132, minHeight: 44)
             .contentShape(Rectangle())
@@ -244,7 +244,7 @@ struct ExploreLoadMoreFooter: View {
 
             Button("重试", action: onRetryLoadMore)
                 .font(AppTypography.labelSemibold)
-                .foregroundStyle(AppColors.brandPrimary)
+                .foregroundStyle(AppColors.interactiveText)
                 .buttonStyle(TracciPressableButtonStyle(scales: false))
                 .frame(minWidth: 44, minHeight: 44)
                 .contentShape(Rectangle())

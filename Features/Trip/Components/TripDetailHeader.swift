@@ -573,7 +573,7 @@ struct TripDetailHeader: View {
 
     private var navChrome: some View {
         HStack(spacing: AppSpacing.tight) {
-            headerIconButton(systemImage: "chevron.left", action: onBack)
+            headerIconButton(systemImage: "chevron.left", accessibilityLabel: "返回", action: onBack)
             Spacer()
 
             if showsMemberShortcut {
@@ -915,13 +915,14 @@ struct TripDetailHeader: View {
         return actions
     }
 
-    private func headerIconButton(systemImage: String, action: @escaping () -> Void) -> some View {
+    private func headerIconButton(systemImage: String, accessibilityLabel: String, action: @escaping () -> Void) -> some View {
         Button(action: action) {
             headerChromeIcon(systemImage: systemImage)
         }
         .frame(minWidth: 44, minHeight: 44)
         .contentShape(Circle())
         .pressableCardStyle(scale: 0.92, opacity: 0.85)
+        .accessibilityLabel(accessibilityLabel)
     }
 
     private func headerChromeIcon(systemImage: String) -> some View {

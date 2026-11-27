@@ -84,7 +84,7 @@ struct JoinTripView: View {
                     isInviteCodeFocused = false
                 }
                 .font(AppTypography.buttonTitleMedium)
-                .foregroundStyle(AppColors.brandPrimary)
+                .foregroundStyle(AppColors.interactiveText)
             }
         }
         .onAppear {

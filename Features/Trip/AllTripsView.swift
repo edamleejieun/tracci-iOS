@@ -276,7 +276,7 @@ struct AllTripsView: View {
             } label: {
                 Text("重试加载")
                     .font(AppTypography.bodyMedium)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
             }
             .buttonStyle(.plain)
         }

@@ -439,7 +439,7 @@ struct TripUnifiedCreekFeed: View {
                         onCommitNodeReorder?()
                     }
                     .font(TripDetailTypography.bodyMedium)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
                     .disabled(isReorderSubmitting)
                     .frame(minHeight: 44)
                 } else {

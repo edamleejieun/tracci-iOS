@@ -263,7 +263,7 @@ struct AuthLandingView: View {
                         } label: {
                             Text("忘记密码？")
                                 .font(AppTypography.label)
-                                .foregroundStyle(AppColors.brandPrimary)
+                                .foregroundStyle(AppColors.interactiveText)
                         }
                         .buttonStyle(.plain)
                     }
@@ -477,7 +477,7 @@ private struct PhoneLoginStatusView: View {
                 Button(action: fallbackAction) {
                     Text("使用邮箱登录")
                         .font(AppTypography.label)
-                        .foregroundStyle(AppColors.brandPrimary)
+                        .foregroundStyle(AppColors.interactiveText)
                 }
                 .buttonStyle(.plain)
             }

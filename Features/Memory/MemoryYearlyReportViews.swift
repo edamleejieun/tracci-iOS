@@ -116,7 +116,7 @@ struct YearlyMemoryReportCard: View {
                             .clipShape(Circle())
                         Text("查看年度报告")
                             .font(AppTypography.label)
-                            .foregroundStyle(AppColors.brandPrimary)
+                            .foregroundStyle(AppColors.interactiveText)
                     }
                 }
                 Spacer(minLength: 0)

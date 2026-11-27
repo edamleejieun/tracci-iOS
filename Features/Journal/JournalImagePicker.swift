@@ -122,7 +122,7 @@ struct JournalImagePicker: View {
                 Text(totalCount == 0 ? "添加照片" : "继续添加照片")
                     .font(AppTypography.bodyMedium)
             }
-            .foregroundStyle(AppColors.brandPrimary)
+            .foregroundStyle(AppColors.interactiveText)
             .frame(maxWidth: .infinity)
             .frame(height: 44)
             .background(AppColors.brandPrimaryBackground)
@@ -247,7 +247,7 @@ struct JournalImagePicker: View {
     // MARK: - Helpers
 
     private var thumbnailSize: CGFloat {
-        let totalWidth = UIScreen.main.bounds.width - AppSpacing.pageX * 2
+        let totalWidth = SafeAreaMetrics.windowWidth - AppSpacing.pageX * 2
         return (totalWidth - 16) / 3
     }
 

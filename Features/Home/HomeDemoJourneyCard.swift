@@ -167,7 +167,7 @@ struct HomeDemoJourneyCard: View {
 
             Text(DemoReadOnlyCopy.identityPill)
                 .font(AppTypography.captionSemibold)
-                .foregroundStyle(AppColors.brandPrimary)
+                .foregroundStyle(AppColors.interactiveText)
                 .padding(.horizontal, AppSpacing.sm)
                 .padding(.vertical, 5)
                 .background(

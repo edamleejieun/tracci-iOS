@@ -14,6 +14,19 @@ enum SafeAreaMetrics {
         resolveBottomInset(geometryInset: 0)
     }
 
+    /// Active window size (points). Prefer this over `UIScreen.main.bounds` for layout:
+    /// it tracks the app's **window** under iPad multitasking / iPhone Mirroring / resize,
+    /// not the physical screen. Falls back to the screen only when no window is available.
+    static var windowSize: CGSize {
+        foregroundWindow?.bounds.size ?? UIScreen.main.bounds.size
+    }
+
+    /// Active window width — see `windowSize`.
+    static var windowWidth: CGFloat { windowSize.width }
+
+    /// Active window height — see `windowSize`.
+    static var windowHeight: CGFloat { windowSize.height }
+
     /// Top padding for custom chrome on pushed / immersive pages.
     static func chromeTopPadding(using inset: CGFloat? = nil) -> CGFloat {
         max(16, (inset ?? top) + 8)

@@ -303,7 +303,7 @@ struct ItineraryNodeEditView: View {
             if !model.isNoteOnly, titleDraft != model.form.title {
                 Button("保存") { submitTitleIfNeeded() }
                     .font(AppTypography.labelSemibold)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
                     .frame(minHeight: 44)
                     .disabled(model.isMutating)
             }
@@ -329,7 +329,7 @@ struct ItineraryNodeEditView: View {
             if noteDraft != model.form.note {
                 Button("保存") { submitNoteIfNeeded() }
                     .font(AppTypography.labelSemibold)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
                     .frame(minHeight: 44)
                     .disabled(model.isMutating)
             }

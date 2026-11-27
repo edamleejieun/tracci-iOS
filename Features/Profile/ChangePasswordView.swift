@@ -63,7 +63,7 @@ struct ChangePasswordView: View {
                 } label: {
                     Text("忘记原密码？通过邮箱找回")
                         .font(AppTypography.caption)
-                        .foregroundStyle(AppColors.brandPrimary)
+                        .foregroundStyle(AppColors.interactiveText)
                         .frame(maxWidth: .infinity, alignment: .trailing)
                 }
                 .buttonStyle(.plain)

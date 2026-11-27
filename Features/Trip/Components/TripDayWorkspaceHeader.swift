@@ -228,7 +228,7 @@ struct TripDayWorkspaceHeader: View {
                             .padding(.horizontal, 5)
                             .padding(.vertical, 2)
                             .frame(minHeight: 16)
-                            .background(AppColors.brandPrimary)
+                            .background(AppColors.brandPrimaryStrong)
                             .clipShape(Capsule())
                     } else {
                         Color.clear

@@ -286,7 +286,7 @@ struct AboutTracciView: View {
                         .foregroundStyle(AppColors.textPrimary)
                     Text(AboutCopy.tracciPronunciation)
                         .font(AppTypography.caption)
-                        .foregroundStyle(AppColors.brandPrimary)
+                        .foregroundStyle(AppColors.interactiveText)
                 }
                 Text(AboutCopy.tracciOrigin)
                     .font(AppTypography.caption)
@@ -762,7 +762,7 @@ struct LegalPrivacyView: View {
                 HStack(spacing: AppSpacing.xs) {
                     Text(privacyTitle)
                         .font(AppTypography.label)
-                        .foregroundStyle(AppColors.brandPrimary)
+                        .foregroundStyle(AppColors.interactiveText)
                     Image(systemName: "arrow.up.forward")
                         .font(AppTypography.caption)
                         .foregroundStyle(AppColors.brandPrimary)

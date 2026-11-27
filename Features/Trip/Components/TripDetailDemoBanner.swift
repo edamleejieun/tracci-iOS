@@ -68,7 +68,7 @@ struct TripDetailDemoBanner: View {
             } label: {
                 Text(DemoReadOnlyCopy.createOwnTrip)
                     .font(AppTypography.captionMedium)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
                     .padding(.horizontal, AppSpacing.sm)
                     .padding(.vertical, 6)
                     .background(
@@ -121,7 +121,7 @@ struct TripDetailDemoBanner: View {
             Button(action: onDismissSoftCoach) {
                 Text(DemoReadOnlyCopy.softCoachDismiss)
                     .font(AppTypography.captionMedium)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
                     .padding(.horizontal, AppSpacing.sm)
                     .frame(minHeight: 44)
                     .contentShape(Rectangle())

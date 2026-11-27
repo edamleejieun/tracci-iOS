@@ -209,7 +209,7 @@ struct AccountSecurityView: View {
             if isTappable {
                 Text(action)
                     .font(AppTypography.label)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
                 Image(systemName: "chevron.right")
                     .font(AppTypography.bodyMedium)
                     .foregroundStyle(AppColors.textDisabled)

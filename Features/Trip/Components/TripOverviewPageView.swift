@@ -168,7 +168,7 @@ private struct TripDailyOverviewSection: View {
             if isToday {
                 Text("今天")
                     .font(TripDetailTypography.dayBadge)
-                    .foregroundStyle(AppColors.brandPrimary)
+                    .foregroundStyle(AppColors.interactiveText)
                     .padding(.horizontal, 5)
                     .padding(.vertical, 2)
                     .background(AppColors.brandPrimaryBackground)
